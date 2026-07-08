@@ -1,0 +1,75 @@
+services:
+
+  # ---------------------------------------------------------------------------
+  # Sidecar proxy — intercepts all traffic for the co-located business-app.
+  # Owns the network stack; business-app piggy-backs via network_mode below.
+  # ---------------------------------------------------------------------------
+  sentinel-proxy:
+    build: ./sentinel-proxy
+    container_name: sentinel-proxy
+    ports:
+      - "8080:8080"
+    environment:
+      UPSTREAM_LLM_URL: http://mock-llm-service:3000
+      MONGODB_URI: mongodb://audit-db:27017/sentinel
+      POLICIES_DIR: /etc/sentinel/policies
+      PORT: "8080"
+    volumes:
+      - ./policies:/etc/sentinel/policies:ro
+    networks:
+      - sentinel-gateway
+      - audit-net
+    depends_on:
+      - audit-db
+      - mock-llm-service
+    restart: unless-stopped
+
+  # ---------------------------------------------------------------------------
+  # Business application — shares sentinel-proxy's network namespace so every
+  # inbound/outbound packet is transparently handled by the proxy sidecar.
+  # ---------------------------------------------------------------------------
+  business-app:
+    build: ./business-app
+    container_name: business-app
+    network_mode: "service:sentinel-proxy"
+    depends_on:
+      - sentinel-proxy
+    restart: unless-stopped
+
+  # ---------------------------------------------------------------------------
+  # Stub LLM backend — simulates upstream AI responses for local development.
+  # ---------------------------------------------------------------------------
+  mock-llm-service:
+    build: ./mock-llm
+    container_name: mock-llm-service
+    ports:
+      - "3000:3000"
+    networks:
+      - sentinel-gateway
+    restart: unless-stopped
+
+  # ---------------------------------------------------------------------------
+  # Audit database — MongoDB reachable only over the isolated audit-net bridge.
+  # sentinel-proxy writes audit records here; no other service has access.
+  # ---------------------------------------------------------------------------
+  audit-db:
+    image: mongo:7
+    container_name: audit-db
+    networks:
+      - audit-net
+    volumes:
+      - audit-db-data:/data/db
+    restart: unless-stopped
+
+networks:
+  # Shared network for proxy ↔ LLM traffic
+  sentinel-gateway:
+    driver: bridge
+
+  # Isolated network for proxy ↔ MongoDB audit logging only
+  audit-net:
+    driver: bridge
+    internal: true
+
+volumes:
+  audit-db-data:

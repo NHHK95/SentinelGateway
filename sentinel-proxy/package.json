@@ -1,0 +1,19 @@
+{
+  "name": "sentinel-proxy",
+  "version": "1.0.0",
+  "description": "Sentinel gateway proxy with policy decision point (PDP)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "http-proxy-middleware": "^4.1.1",
+    "mongodb": "^7.4.0"
+  }
+}

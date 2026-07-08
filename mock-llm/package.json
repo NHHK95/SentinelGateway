@@ -1,0 +1,14 @@
+{
+  "name": "mock-llm-service",
+  "version": "1.0.0",
+  "description": "Mock streaming OpenAI-compatible LLM provider for sentinel-gateway testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
