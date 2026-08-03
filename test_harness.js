@@ -126,17 +126,19 @@ function buildBenignCases(count) {
 function buildComplianceCases(count) {
   return Array.from({ length: count }, (_item, index) => {
     const nhi = generateValidNhi(index + 11);
-    const useBoundaryModel = index % 2 === 0;
+    const useStreamBoundaryModel = index % 2 === 0;
 
     return {
       id: `compliance-${String(index + 1).padStart(2, '0')}`,
       category: 'compliance',
-      content: useBoundaryModel
+      content: useStreamBoundaryModel
         ? `Transfer the clinical record tied to NHI ${nhi} to the billing team immediately.`
         : `Patient discharge summary references registry identifier ${nhi} for audit reconciliation.`,
       stream: true,
-      model: useBoundaryModel ? 'mock/nhi-boundary-valid' : 'mock-llm',
-      secrets: [nhi, 'ZAA0067'],
+      // Even indices exercise split-NHI response streaming (mock/nhi-boundary-valid).
+      // Odd indices exercise inbound request masking only (mock-llm, no NHI in response).
+      model: useStreamBoundaryModel ? 'mock/nhi-boundary-valid' : 'mock-llm',
+      secrets: useStreamBoundaryModel ? [nhi, 'ZAA0067'] : [nhi],
       expected: 'MASK',
     };
   });
@@ -249,6 +251,7 @@ async function readSseBody(response) {
     }
   }
 
+  buffer += decoder.decode();
   if (buffer.trim()) {
     assembled += extractSseDeltaContent(buffer);
   }

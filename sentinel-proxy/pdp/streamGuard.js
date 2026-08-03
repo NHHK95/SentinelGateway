@@ -5,6 +5,8 @@ const { evaluate } = require('./engine');
 const { VERDICTS } = require('./types');
 
 const DEFAULT_OVERLAP_CHARS = 256;
+/** Hold back up to 6 chars — one less than legacy NHI length — so split tokens stay buffered. */
+const STREAM_HOLDBACK_CHARS = 6;
 const SSE_EVENT_DELIMITER = /\r?\n\r?\n/;
 
 /**
@@ -92,18 +94,104 @@ function parseSseEventBlock(eventBlock) {
 }
 
 /**
+ * @param {Transform} stream
+ * @param {string} content
+ */
+function pushContentDelta(stream, content) {
+  if (!content) {
+    return;
+  }
+
+  const payload = {
+    id: `sentinel-guard-${Date.now()}`,
+    object: 'chat.completion.chunk',
+    created: Math.floor(Date.now() / 1000),
+    model: 'sentinel-guard',
+    choices: [{
+      index: 0,
+      delta: { content },
+      finish_reason: null,
+    }],
+  };
+
+  stream.push(`data: ${JSON.stringify(payload)}\n\n`);
+}
+
+/**
  * Creates a transform stream that inspects upstream SSE chunks through a sliding window.
  * @param {Object} options
  * @param {() => import('./types').PolicyLookup | null} options.getPolicyLookup
  * @param {import('./types').EvaluationContext} options.context
  * @param {(decision: import('./types').DecisionVerdict, meta: Object) => void} [options.onDecision]
  * @param {number} [options.overlapChars]
+ * @param {number} [options.holdbackChars]
  * @returns {Transform}
  */
 function createSseStreamGuard(options) {
   const window = new SlidingWindowContext(options.overlapChars ?? DEFAULT_OVERLAP_CHARS);
+  const holdbackChars = options.holdbackChars ?? STREAM_HOLDBACK_CHARS;
   let sseBuffer = '';
+  let outboundHoldback = '';
   let blocked = false;
+
+  const getPolicyLookup = () => {
+    const policyLookup = options.getPolicyLookup();
+    if (!policyLookup) {
+      throw new Error('Policy lookup is not available');
+    }
+    return policyLookup;
+  };
+
+  /**
+   * @param {Transform} stream
+   * @param {boolean} forceFlush
+   */
+  const releaseHeldText = (stream, forceFlush = false) => {
+    const policyLookup = getPolicyLookup();
+
+    while (outboundHoldback.length > 0) {
+      const decision = evaluate(outboundHoldback, options.context, policyLookup);
+      options.onDecision?.(decision, { phase: 'release', buffer: outboundHoldback });
+
+      if (decision.verdict === VERDICTS.BLOCK) {
+        blocked = true;
+        throw new Error('STREAM_BLOCKED');
+      }
+
+      if (decision.verdict === VERDICTS.MASK && decision.modified_payload) {
+        pushContentDelta(stream, decision.modified_payload);
+        outboundHoldback = '';
+        return;
+      }
+
+      if (forceFlush) {
+        pushContentDelta(stream, outboundHoldback);
+        outboundHoldback = '';
+        return;
+      }
+
+      if (outboundHoldback.length <= holdbackChars) {
+        return;
+      }
+
+      const releasable = outboundHoldback.slice(0, -holdbackChars);
+      const tail = outboundHoldback.slice(-holdbackChars);
+      const prefixDecision = evaluate(releasable, options.context, policyLookup);
+      options.onDecision?.(prefixDecision, { phase: 'prefix', buffer: releasable });
+
+      if (prefixDecision.verdict === VERDICTS.BLOCK) {
+        blocked = true;
+        throw new Error('STREAM_BLOCKED');
+      }
+
+      const emitText = prefixDecision.verdict === VERDICTS.MASK && prefixDecision.modified_payload
+        ? prefixDecision.modified_payload
+        : releasable;
+
+      pushContentDelta(stream, emitText);
+      outboundHoldback = tail;
+    }
+  };
 
   return new Transform({
     transform(chunk, _encoding, callback) {
@@ -121,57 +209,32 @@ function createSseStreamGuard(options) {
           const parsedEvent = parseSseEventBlock(eventBlock);
 
           if (parsedEvent.done) {
+            releaseHeldText(this, true);
             this.push(`${eventBlock}\n\n`);
             continue;
           }
 
-          if (!parsedEvent.data) {
+          const delta = parsedEvent.data
+            ? extractStreamDeltaContent(parsedEvent.data)
+            : '';
+
+          if (!parsedEvent.data || !delta) {
             this.push(`${eventBlock}\n\n`);
             continue;
           }
 
-          const delta = extractStreamDeltaContent(parsedEvent.data);
-          if (delta) {
-            const policyLookup = options.getPolicyLookup();
-            if (!policyLookup) {
-              callback(new Error('Policy lookup is not available'));
-              return;
-            }
+          const inspectText = window.append(delta);
+          const windowDecision = evaluate(inspectText, options.context, getPolicyLookup());
+          options.onDecision?.(windowDecision, { delta, inspectText });
 
-            const inspectText = window.append(delta);
-            const windowDecision = evaluate(inspectText, options.context, policyLookup);
-            options.onDecision?.(windowDecision, { delta, inspectText });
-
-            if (windowDecision.verdict === VERDICTS.BLOCK) {
-              blocked = true;
-              callback(new Error('STREAM_BLOCKED'));
-              return;
-            }
-
-            if (windowDecision.verdict === VERDICTS.MASK) {
-              const deltaDecision = evaluate(delta, options.context, policyLookup);
-              const maskedDelta = deltaDecision.modified_payload ?? delta;
-
-              try {
-                const payload = JSON.parse(parsedEvent.data);
-                if (payload?.choices?.[0]?.delta) {
-                  payload.choices[0].delta.content = maskedDelta;
-                } else if (payload?.choices?.[0]?.message) {
-                  payload.choices[0].message.content = maskedDelta;
-                }
-                const rewritten = eventBlock.replace(
-                  /^data: .*$/m,
-                  `data: ${JSON.stringify(payload)}`,
-                );
-                this.push(`${rewritten}\n\n`);
-                continue;
-              } catch {
-                // Fall through and emit the original event if rewrite fails.
-              }
-            }
+          if (windowDecision.verdict === VERDICTS.BLOCK) {
+            blocked = true;
+            callback(new Error('STREAM_BLOCKED'));
+            return;
           }
 
-          this.push(`${eventBlock}\n\n`);
+          outboundHoldback += delta;
+          releaseHeldText(this, false);
         }
 
         callback();
@@ -181,10 +244,17 @@ function createSseStreamGuard(options) {
     },
 
     flush(callback) {
-      if (sseBuffer && !blocked) {
-        this.push(sseBuffer);
+      try {
+        if (!blocked) {
+          releaseHeldText(this, true);
+          if (sseBuffer) {
+            this.push(sseBuffer);
+          }
+        }
+        callback();
+      } catch (error) {
+        callback(error);
       }
-      callback();
     },
   });
 }
@@ -195,4 +265,5 @@ module.exports = {
   splitSseEvents,
   parseSseEventBlock,
   extractStreamDeltaContent,
+  STREAM_HOLDBACK_CHARS,
 };
