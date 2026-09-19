@@ -1,0 +1,4 @@
+
+# Data acquisition workspace
+data/.venv/
+data/raw/

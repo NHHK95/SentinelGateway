@@ -24,6 +24,9 @@ const NHI_VALID_BOUNDARY_MODEL = 'mock/nhi-boundary-valid';
 const NHI_VALID_CHUNK_ONE = 'Verified registry lookup returned identifier ZAA00';
 const NHI_VALID_CHUNK_TWO = '67 for the active care pathway.';
 
+/** Echoes the inbound user message so leak/mask checks are non-vacuous. */
+const ECHO_MODEL = 'mock/echo-request';
+
 /**
  * @param {string} content
  * @returns {string}
@@ -129,9 +132,21 @@ function extractUserMessage(body) {
  * @param {object} body
  * @returns {string[]}
  */
+function resolveEchoDeltas(body) {
+  return [extractUserMessage(body)];
+}
+
+/**
+ * @param {object} body
+ * @returns {string[]}
+ */
 function resolveStreamingDeltas(body) {
   const model = body?.model ?? '';
   const userMessage = extractUserMessage(body);
+
+  if (body?.model === ECHO_MODEL) {
+    return resolveEchoDeltas(body);
+  }
 
   if (model === NHI_BOUNDARY_MODEL || userMessage.includes('__NHI_BOUNDARY_TEST__')) {
     return [
@@ -204,6 +219,7 @@ function createApp() {
         { id: 'mock-llm', object: 'model', owned_by: 'sentinel-gateway' },
         { id: NHI_BOUNDARY_MODEL, object: 'model', owned_by: 'sentinel-gateway' },
         { id: NHI_VALID_BOUNDARY_MODEL, object: 'model', owned_by: 'sentinel-gateway' },
+        { id: ECHO_MODEL, object: 'model', owned_by: 'sentinel-gateway' },
       ],
     });
   });

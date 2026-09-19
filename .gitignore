@@ -4,3 +4,10 @@ logs/
 .env
 .env.*
 .DS_Store
+
+# Data acquisition workspace
+data/.venv/
+data/raw/
+
+# Top-level Python venv (separate from data/.venv)
+.venv/
