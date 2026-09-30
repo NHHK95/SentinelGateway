@@ -62,11 +62,11 @@
       "source": "tensortrust_hijacking",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858048215\",\"object\":\"chat.completion\",\"created\":1789858048,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898205068\",\"object\":\"chat.completion\",\"created\":1789898205,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858048215",
+        "id": "chatcmpl-mock-1789898205068",
         "object": "chat.completion",
-        "created": 1789858048,
+        "created": 1789898205,
         "model": "mock-llm",
         "choices": [
           {
@@ -118,11 +118,11 @@
       "source": "tensortrust_hijacking",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858048221\",\"object\":\"chat.completion\",\"created\":1789858048,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898205073\",\"object\":\"chat.completion\",\"created\":1789898205,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858048221",
+        "id": "chatcmpl-mock-1789898205073",
         "object": "chat.completion",
-        "created": 1789858048,
+        "created": 1789898205,
         "model": "mock-llm",
         "choices": [
           {
@@ -174,11 +174,11 @@
       "source": "tensortrust_hijacking",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858048224\",\"object\":\"chat.completion\",\"created\":1789858048,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898205076\",\"object\":\"chat.completion\",\"created\":1789898205,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858048224",
+        "id": "chatcmpl-mock-1789898205076",
         "object": "chat.completion",
-        "created": 1789858048,
+        "created": 1789898205,
         "model": "mock-llm",
         "choices": [
           {
@@ -210,11 +210,11 @@
       "source": "tensortrust_hijacking",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858048227\",\"object\":\"chat.completion\",\"created\":1789858048,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898205078\",\"object\":\"chat.completion\",\"created\":1789898205,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858048227",
+        "id": "chatcmpl-mock-1789898205078",
         "object": "chat.completion",
-        "created": 1789858048,
+        "created": 1789898205,
         "model": "mock-llm",
         "choices": [
           {
@@ -246,11 +246,11 @@
       "source": "tensortrust_hijacking",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858048229\",\"object\":\"chat.completion\",\"created\":1789858048,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898205079\",\"object\":\"chat.completion\",\"created\":1789898205,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858048229",
+        "id": "chatcmpl-mock-1789898205079",
         "object": "chat.completion",
-        "created": 1789858048,
+        "created": 1789898205,
         "model": "mock-llm",
         "choices": [
           {
@@ -302,11 +302,11 @@
       "source": "tensortrust_hijacking",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858048232\",\"object\":\"chat.completion\",\"created\":1789858048,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898205081\",\"object\":\"chat.completion\",\"created\":1789898205,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858048232",
+        "id": "chatcmpl-mock-1789898205081",
         "object": "chat.completion",
-        "created": 1789858048,
+        "created": 1789898205,
         "model": "mock-llm",
         "choices": [
           {
@@ -338,11 +338,11 @@
       "source": "tensortrust_hijacking",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858048233\",\"object\":\"chat.completion\",\"created\":1789858048,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898205083\",\"object\":\"chat.completion\",\"created\":1789898205,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858048233",
+        "id": "chatcmpl-mock-1789898205083",
         "object": "chat.completion",
-        "created": 1789858048,
+        "created": 1789898205,
         "model": "mock-llm",
         "choices": [
           {
@@ -374,11 +374,11 @@
       "source": "tensortrust_hijacking",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858048235\",\"object\":\"chat.completion\",\"created\":1789858048,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898205084\",\"object\":\"chat.completion\",\"created\":1789898205,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858048235",
+        "id": "chatcmpl-mock-1789898205084",
         "object": "chat.completion",
-        "created": 1789858048,
+        "created": 1789898205,
         "model": "mock-llm",
         "choices": [
           {
@@ -426,11 +426,11 @@
       "source": "tensortrust_extraction",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858048742\",\"object\":\"chat.completion\",\"created\":1789858048,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898205598\",\"object\":\"chat.completion\",\"created\":1789898205,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858048742",
+        "id": "chatcmpl-mock-1789898205598",
         "object": "chat.completion",
-        "created": 1789858048,
+        "created": 1789898205,
         "model": "mock-llm",
         "choices": [
           {
@@ -462,11 +462,11 @@
       "source": "tensortrust_extraction",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858048748\",\"object\":\"chat.completion\",\"created\":1789858048,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898205603\",\"object\":\"chat.completion\",\"created\":1789898205,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858048748",
+        "id": "chatcmpl-mock-1789898205603",
         "object": "chat.completion",
-        "created": 1789858048,
+        "created": 1789898205,
         "model": "mock-llm",
         "choices": [
           {
@@ -498,11 +498,11 @@
       "source": "tensortrust_extraction",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858048753\",\"object\":\"chat.completion\",\"created\":1789858048,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898205607\",\"object\":\"chat.completion\",\"created\":1789898205,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858048753",
+        "id": "chatcmpl-mock-1789898205607",
         "object": "chat.completion",
-        "created": 1789858048,
+        "created": 1789898205,
         "model": "mock-llm",
         "choices": [
           {
@@ -550,11 +550,11 @@
       "source": "tensortrust_extraction",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858049257\",\"object\":\"chat.completion\",\"created\":1789858049,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898206121\",\"object\":\"chat.completion\",\"created\":1789898206,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858049257",
+        "id": "chatcmpl-mock-1789898206121",
         "object": "chat.completion",
-        "created": 1789858049,
+        "created": 1789898206,
         "model": "mock-llm",
         "choices": [
           {
@@ -586,11 +586,11 @@
       "source": "tensortrust_extraction",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858049260\",\"object\":\"chat.completion\",\"created\":1789858049,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898206126\",\"object\":\"chat.completion\",\"created\":1789898206,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858049260",
+        "id": "chatcmpl-mock-1789898206126",
         "object": "chat.completion",
-        "created": 1789858049,
+        "created": 1789898206,
         "model": "mock-llm",
         "choices": [
           {
@@ -622,11 +622,11 @@
       "source": "tensortrust_extraction",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858049262\",\"object\":\"chat.completion\",\"created\":1789858049,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898206129\",\"object\":\"chat.completion\",\"created\":1789898206,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858049262",
+        "id": "chatcmpl-mock-1789898206129",
         "object": "chat.completion",
-        "created": 1789858049,
+        "created": 1789898206,
         "model": "mock-llm",
         "choices": [
           {
@@ -674,11 +674,11 @@
       "source": "tensortrust_extraction",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858049775\",\"object\":\"chat.completion\",\"created\":1789858049,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898206631\",\"object\":\"chat.completion\",\"created\":1789898206,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858049775",
+        "id": "chatcmpl-mock-1789898206631",
         "object": "chat.completion",
-        "created": 1789858049,
+        "created": 1789898206,
         "model": "mock-llm",
         "choices": [
           {
@@ -710,11 +710,11 @@
       "source": "jailbreak_chat",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858049782\",\"object\":\"chat.completion\",\"created\":1789858049,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898206636\",\"object\":\"chat.completion\",\"created\":1789898206,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858049782",
+        "id": "chatcmpl-mock-1789898206636",
         "object": "chat.completion",
-        "created": 1789858049,
+        "created": 1789898206,
         "model": "mock-llm",
         "choices": [
           {
@@ -746,11 +746,11 @@
       "source": "jailbreak_chat",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858049787\",\"object\":\"chat.completion\",\"created\":1789858049,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898206640\",\"object\":\"chat.completion\",\"created\":1789898206,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858049787",
+        "id": "chatcmpl-mock-1789898206640",
         "object": "chat.completion",
-        "created": 1789858049,
+        "created": 1789898206,
         "model": "mock-llm",
         "choices": [
           {
@@ -798,11 +798,11 @@
       "source": "jailbreak_chat",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858050284\",\"object\":\"chat.completion\",\"created\":1789858050,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898207148\",\"object\":\"chat.completion\",\"created\":1789898207,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858050284",
+        "id": "chatcmpl-mock-1789898207148",
         "object": "chat.completion",
-        "created": 1789858050,
+        "created": 1789898207,
         "model": "mock-llm",
         "choices": [
           {
@@ -834,11 +834,11 @@
       "source": "jailbreak_chat",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858050290\",\"object\":\"chat.completion\",\"created\":1789858050,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898207152\",\"object\":\"chat.completion\",\"created\":1789898207,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858050290",
+        "id": "chatcmpl-mock-1789898207152",
         "object": "chat.completion",
-        "created": 1789858050,
+        "created": 1789898207,
         "model": "mock-llm",
         "choices": [
           {
@@ -870,11 +870,11 @@
       "source": "jailbreak_chat",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858050294\",\"object\":\"chat.completion\",\"created\":1789858050,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898207156\",\"object\":\"chat.completion\",\"created\":1789898207,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858050294",
+        "id": "chatcmpl-mock-1789898207156",
         "object": "chat.completion",
-        "created": 1789858050,
+        "created": 1789898207,
         "model": "mock-llm",
         "choices": [
           {
@@ -922,11 +922,11 @@
       "source": "jailbreak_chat",
       "status": 200,
       "blocked": false,
-      "bodyText": "{\"id\":\"chatcmpl-mock-1789858050808\",\"object\":\"chat.completion\",\"created\":1789858050,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
+      "bodyText": "{\"id\":\"chatcmpl-mock-1789898207667\",\"object\":\"chat.completion\",\"created\":1789898207,\"model\":\"mock-llm\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Mock LLM provider response chunk one. Mock LLM provider response chunk two. Streaming complete.\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":0,\"completion_tokens\":95,\"total_tokens\":95}}",
       "parsedBody": {
-        "id": "chatcmpl-mock-1789858050808",
+        "id": "chatcmpl-mock-1789898207667",
         "object": "chat.completion",
-        "created": 1789858050,
+        "created": 1789898207,
         "model": "mock-llm",
         "choices": [
           {
