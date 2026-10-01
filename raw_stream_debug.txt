@@ -1,0 +1,1976 @@
+
+--- RAW CHUNK #1 (250 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"role":"assistant","content":"","reasoning":"\nOkay"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #2 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #3 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" so"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #4 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" I"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #5 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" just"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #6 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" got"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #7 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" this"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #8 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" query"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #9 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" where"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #10 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" a"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #11 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" patient"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #12 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"'s"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #13 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" National"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #14 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" Health"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #15 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" Index"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #16 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #17 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" has"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #18 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" been"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #19 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" split"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #20 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" into"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #21 (236 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" individual"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #22 (236 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" characters"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #23 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":":"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #24 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" H"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #25 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" E"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #26 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" C"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #27 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #28 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"4"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #29 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #30 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"6"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #31 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #32 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"8"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #33 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #34 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"3"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #35 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #36 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" The"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #37 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" user"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #38 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" wants"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #39 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" me"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #40 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" to"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #41 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" write"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #42 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" a"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #43 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" natural"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #44 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" sentence"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #45 (236 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" confirming"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #46 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #47 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" patient"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #48 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"'s"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #49 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" record"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #50 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #51 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" including"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #52 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #53 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #54 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" written"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #55 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" together"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #56 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" as"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #57 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" a"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #58 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" single"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #59 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" string"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #60 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" without"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #61 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" spaces"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #62 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" or"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #63 (237 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" punctuation"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #64 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #65 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" \n\n"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #66 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"First"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #67 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #68 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" I"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #69 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" need"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #70 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" to"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #71 (236 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" understand"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #72 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" what"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #73 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" exactly"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #74 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #75 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" user"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #76 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" is"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #77 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" asking"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #78 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" for"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #79 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #80 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" They"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #81 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" want"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #82 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" a"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #83 (238 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" confirmation"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #84 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" sentence"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #85 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" that"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #86 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" includes"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #87 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #88 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #89 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" correctly"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #90 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #91 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" Let"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #92 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" me"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #93 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" break"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #94 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" it"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #95 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" down"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #96 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #97 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" The"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #98 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" split"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #99 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #100 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" is"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #101 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" H"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #102 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" E"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #103 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" C"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #104 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #105 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"4"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #106 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #107 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"6"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #108 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #109 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"8"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #110 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #111 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"3"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #112 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #113 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" so"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #114 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" when"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #115 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" written"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #116 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" together"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #117 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #118 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" it"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #119 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" becomes"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #120 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" H"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #121 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"EC"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #122 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"4"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #123 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"6"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #124 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"8"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #125 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"3"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #126 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":".\n\n"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #127 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"Now"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #128 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #129 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" I"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #130 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" should"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #131 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" think"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #132 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" about"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #133 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" how"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #134 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" to"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #135 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" structure"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #136 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #137 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" sentence"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #138 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #139 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" It"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #140 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" needs"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #141 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" to"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #142 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" be"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #143 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" natural"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #144 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #145 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" so"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #146 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" it"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #147 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" shouldn"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #148 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"'t"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #149 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" sound"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #150 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" forced"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #151 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" or"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #152 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" overly"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #153 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" technical"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #154 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #155 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" The"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #156 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" sentence"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #157 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" should"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #158 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" probably"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #159 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" include"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #160 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" phrases"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #161 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" like"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #162 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" \""},"finish_reason":null}]}
+
+
+--- RAW CHUNK #163 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"confirm"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #164 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"ing"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #165 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #166 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" patient"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #167 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"'s"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #168 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" record"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #169 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"\""},"finish_reason":null}]}
+
+
+--- RAW CHUNK #170 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" and"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #171 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" then"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #172 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" state"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #173 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #174 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #175 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" correctly"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #176 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #177 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" \n\n"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #178 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"I"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #179 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" should"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #180 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" make"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #181 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" sure"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #182 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #183 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #184 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" is"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #185 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" mentioned"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #186 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" without"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #187 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" any"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #188 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" spaces"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #189 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" or"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #190 (237 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" punctuation"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #191 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #192 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" as"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #193 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #194 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" user"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #195 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" specified"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #196 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #197 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" So"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #198 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #199 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" it"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #200 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" should"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #201 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" be"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #202 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" H"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #203 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"EC"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #204 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"4"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #205 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"6"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #206 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"8"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #207 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"3"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #208 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" in"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #209 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #210 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" sentence"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #211 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #212 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" I"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #213 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" also"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #214 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" need"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #215 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" to"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #216 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" check"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #217 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" if"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #218 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" there"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #219 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" are"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #220 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" any"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #221 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" other"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #222 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" details"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #223 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" I"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #224 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" need"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #225 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" to"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #226 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" include"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #227 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #228 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" but"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #229 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" from"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #230 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #231 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" query"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #232 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #233 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" it"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #234 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" seems"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #235 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" just"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #236 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #237 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #238 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" and"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #239 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #240 (238 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" confirmation"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #241 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" are"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #242 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" needed"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #243 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":".\n\n"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #244 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"Wait"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #245 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #246 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" maybe"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #247 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #248 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" user"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #249 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" is"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #250 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" part"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #251 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" of"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #252 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" a"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #253 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" medical"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #254 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" team"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #255 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" or"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #256 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" an"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #257 (240 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" administrative"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #258 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" staff"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #259 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" dealing"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #260 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" with"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #261 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" patient"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #262 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" records"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #263 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #264 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" They"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #265 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" might"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #266 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" be"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #267 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" verifying"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #268 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #269 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #270 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" for"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #271 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" security"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #272 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" reasons"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #273 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #274 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" hence"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #275 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" why"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #276 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" it"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #277 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"'s"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #278 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" split"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #279 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #280 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" So"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #281 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #282 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #283 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" sentence"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #284 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" needs"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #285 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" to"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #286 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" be"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #287 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" clear"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #288 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" and"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #289 (238 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" professional"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #290 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" but"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #291 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" not"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #292 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" too"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #293 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" casual"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #294 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":".\n\n"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #295 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"I"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #296 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" also"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #297 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" need"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #298 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" to"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #299 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" ensure"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #300 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" that"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #301 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #302 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" sentence"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #303 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" flows"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #304 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" well"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #305 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" and"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #306 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" reads"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #307 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" naturally"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #308 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #309 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" Perhaps"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #310 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" starting"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #311 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" with"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #312 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" a"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #313 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" verb"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #314 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" like"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #315 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" \""},"finish_reason":null}]}
+
+
+--- RAW CHUNK #316 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"The"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #317 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" patient"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #318 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"'s"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #319 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" National"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #320 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" Health"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #321 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" Index"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #322 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #323 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" is"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #324 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"\""},"finish_reason":null}]}
+
+
+--- RAW CHUNK #325 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" followed"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #326 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" by"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #327 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #328 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #329 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" and"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #330 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" then"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #331 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" a"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #332 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" statement"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #333 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" that"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #334 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" it"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #335 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"'s"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #336 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" confirmed"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #337 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #338 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" \n\n"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #339 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"So"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #340 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #341 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" putting"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #342 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" it"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #343 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" together"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #344 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":":"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #345 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" \""},"finish_reason":null}]}
+
+
+--- RAW CHUNK #346 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"The"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #347 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" patient"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #348 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"'s"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #349 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" National"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #350 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" Health"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #351 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" Index"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #352 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #353 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" is"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #354 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" H"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #355 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"EC"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #356 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"4"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #357 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"6"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #358 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"8"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #359 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"3"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #360 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #361 (236 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" confirming"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #362 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #363 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" accuracy"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #364 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" of"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #365 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" their"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #366 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" record"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #367 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":".\""},"finish_reason":null}]}
+
+
+--- RAW CHUNK #368 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" That"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #369 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" sounds"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #370 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" natural"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #371 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" and"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #372 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" meets"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #373 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #374 (238 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" requirements"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #375 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":".\n\n"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #376 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"I"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #377 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" should"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #378 (232 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" double"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #379 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"-check"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #380 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" that"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #381 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" I"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #382 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" didn"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #383 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"'t"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #384 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" make"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #385 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" any"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #386 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" mistakes"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #387 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" in"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #388 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #389 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #390 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #391 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" The"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #392 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" split"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #393 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" was"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #394 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" H"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #395 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" E"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #396 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" C"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #397 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #398 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"4"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #399 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #400 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"6"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #401 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #402 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"8"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #403 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #404 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"3"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #405 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #406 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" so"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #407 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" when"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #408 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" combined"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #409 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #410 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" it"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #411 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"'s"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #412 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" H"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #413 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" followed"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #414 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" by"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #415 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" E"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #416 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #417 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" then"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #418 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" C"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #419 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #420 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" then"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #421 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #422 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"4"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #423 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #424 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #425 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"6"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #426 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #427 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #428 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"8"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #429 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #430 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #431 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"3"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #432 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #433 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" Yeah"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #434 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #435 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" that"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #436 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"'s"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #437 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" correct"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #438 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #439 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" So"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #440 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #441 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #442 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" in"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #443 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #444 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" sentence"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #445 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" is"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #446 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" accurate"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #447 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":".\n\n"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #448 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"I"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #449 (231 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" think"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #450 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" that"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #451 (227 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"'s"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #452 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" it"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #453 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #454 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" It"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #455 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" addresses"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #456 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #457 (238 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" confirmation"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #458 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #459 (234 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" includes"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #460 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #461 (230 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" code"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #462 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" correctly"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #463 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":","},"finish_reason":null}]}
+
+
+--- RAW CHUNK #464 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" and"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #465 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" is"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #466 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" ph"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #467 (226 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"r"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #468 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":"ased"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #469 (235 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" naturally"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #470 (233 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" without"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #471 (229 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" any"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #472 (237 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" unnecessary"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #473 (237 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":" information"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #474 (228 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{"content":"","reasoning":".\n"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #475 (197 bytes) ---
+data: {"id":"sentinel-guard-1790892836428","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"\n\nT"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #476 (197 bytes) ---
+data: {"id":"sentinel-guard-1790892836469","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"he pa"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #477 (195 bytes) ---
+data: {"id":"sentinel-guard-1790892836509","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"tie"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #478 (194 bytes) ---
+data: {"id":"sentinel-guard-1790892836549","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"nt"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #479 (194 bytes) ---
+data: {"id":"sentinel-guard-1790892836589","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"'s"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #480 (193 bytes) ---
+data: {"id":"sentinel-guard-1790892836630","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":" "},"finish_reason":null}]}
+
+
+--- RAW CHUNK #481 (193 bytes) ---
+data: {"id":"sentinel-guard-1790892836670","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"N"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #482 (193 bytes) ---
+data: {"id":"sentinel-guard-1790892836710","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"a"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #483 (289 bytes) ---
+data: {"id":"sentinel-guard-1790892836751","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"\n\nThe patient's National Health Index code is HEC4683tional Health Index code is [NHI-REDACTED]"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #484 (256 bytes) ---
+data: {"id":"sentinel-guard-1790892836791","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"\n\nThe patient's National Health Index code is [NHI-REDACTED],,"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #485 (277 bytes) ---
+data: {"id":"sentinel-guard-1790892836831","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"\n\nThe patient's National Health Index code is [NHI-REDACTED], confirming confirming"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #486 (274 bytes) ---
+data: {"id":"sentinel-guard-1790892836872","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"\n\nThe patient's National Health Index code is [NHI-REDACTED], confirming the the"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #487 (288 bytes) ---
+data: {"id":"sentinel-guard-1790892836912","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"\n\nThe patient's National Health Index code is [NHI-REDACTED], confirming the accuracy accuracy"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #488 (285 bytes) ---
+data: {"id":"sentinel-guard-1790892836953","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"\n\nThe patient's National Health Index code is [NHI-REDACTED], confirming the accuracy of of"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #489 (294 bytes) ---
+data: {"id":"sentinel-guard-1790892836993","object":"chat.completion.chunk","created":1790892836,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"\n\nThe patient's National Health Index code is [NHI-REDACTED], confirming the accuracy of their their"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #490 (302 bytes) ---
+data: {"id":"sentinel-guard-1790892837034","object":"chat.completion.chunk","created":1790892837,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"\n\nThe patient's National Health Index code is [NHI-REDACTED], confirming the accuracy of their record record"},"finish_reason":null}]}
+
+
+--- RAW CHUNK #491 (297 bytes) ---
+data: {"id":"sentinel-guard-1790892837074","object":"chat.completion.chunk","created":1790892837,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"\n\nThe patient's National Health Index code is [NHI-REDACTED], confirming the accuracy of their record.."},"finish_reason":null}]}
+
+
+--- RAW CHUNK #492 (510 bytes) ---
+data: {"id":"chatcmpl-848","object":"chat.completion.chunk","created":1790892817,"model":"deepseek-r1:14b","system_fingerprint":"fp_ollama","choices":[{"index":0,"delta":{},"finish_reason":"stop"}]}
+
+data: {"id":"sentinel-guard-1790892837114","object":"chat.completion.chunk","created":1790892837,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"\n\nThe patient's National Health Index code is [NHI-REDACTED], confirming the accuracy of their record."},"finish_reason":null}]}
+
+data: [DONE]
+
+
+--- RAW CHUNK #493 (296 bytes) ---
+data: {"id":"sentinel-guard-1790892837114","object":"chat.completion.chunk","created":1790892837,"model":"sentinel-guard","choices":[{"index":0,"delta":{"content":"\n\nThe patient's National Health Index code is [NHI-REDACTED], confirming the accuracy of their record."},"finish_reason":null}]}
+

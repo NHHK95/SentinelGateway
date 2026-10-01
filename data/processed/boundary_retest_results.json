@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "compliance-real-01",
+    "token": "AFY6544",
+    "chunk_one": "The California ISO has identified a virus in our computer system. Please do NOT open the email named LIFE STAGES TEXT, FUNNY TEXT, or JOKES from any California ISO source. Please confirm the NHI number AFY6",
+    "chunk_two": "544 on file before proceeding. This is a Virus, do not open the message! This message may have been forwarded to all ISO Market Participants. Deleting the message without opening will prevent the virus from access to your system. Don Fuller Director, Client Relations California ISO 916-608-7055 dfuller@caiso.com",
+    "emitted": "The California ISO has identified a virus in our computer system. Please do NOT open the email named LIFE STAGES TEXT, FUNNY TEXT, or JOKES from any California ISO source. Please confirm the NHI number [NHI-REDACTED] on file before proceeding. This is a Virus, do not open the message! This message may have been forwarded to all ISO Market Participants. Deleting the message without opening will prevent the virus from access to your system. Don Fuller Director, Client Relations California ISO 916-608-7055 dfuller@caiso.com",
+    "leaked": false,
+    "masked": true,
+    "observed": "MASK",
+    "expected": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-05",
+    "token": "MFM53XM",
+    "chunk_one": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 03/16/2000 02:07 PM --------------------------- Stephane Brodeur 03/16/2000 07:06 AM To: Phillip K Allen/HOU/ECT@ECT cc: Subject: Maps As requested by John, here's the map and the forecast... The attached referral lists the NHI as MF",
+    "chunk_two": "M53XM. Call me if you have any questions (403) 974-6756.",
+    "emitted": "---------------------- Forwarded by Phillip K Allen/HOU/ECT on 03/16/2000 02:07 PM --------------------------- Stephane Brodeur 03/16/2000 07:06 AM To: Phillip K Allen/HOU/ECT@ECT cc: Subject: Maps As requested by John, here's the map and the forecast... The attached referral lists the NHI as [NHI-REDACTED]. Call me if you have any questions (403) 974-6756.",
+    "leaked": false,
+    "masked": true,
+    "observed": "MASK",
+    "expected": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-13",
+    "token": "PFQ04SK",
+    "chunk_one": "I'll see you guys at 11:45 in front of Beck's Prime in the tunnels. To: dgiron@enron.com, Randy G. Kruger Jr.@ANDERSEN WO, mikeshaw@andrews-kurth.com, todd.w.taylor@bakernet.com cc: Date: 10/17/2001 12:45 PM From: SSCHROED@us.ca-indosuez.com Subject: Lunch Since Todd was the only one of you guys to use the reply to all, and thus try to make my job easier, we will go with his choice of where to eat, which is Beck's Prime. Todd makes a good point that it tends to get crowded around noon, so let's meet at 11:45 so that we may get a table. If I'm not there go ahead without me. I've got a meeting that may last til noon. I'll catch up with you after that. Also, Giron will be in lovely Oklahoma (no doubt some punishment for his role in the $1.0BN in write-offs they took) and won't be joining us. See you tomorrow. Please confirm the NHI number PFQ04S",
+    "chunk_two": "K on file before proceeding. Schroeder *******************Internet Email Confidentiality Footer******************* Privileged/Confidential Information may be contained in this message. If you are not the addressee indicated in this message (or responsible for delivery of the message to such person), you may not copy or deliver this message to anyone. In such case, you should destroy this message and kindly notify the sender by reply email. Please advise immediately if you or your employer do not consent to Internet email for messages of this kind. Opinions, conclusions and other information in this message that do not relate to the official business of my firm shall be understood as neither given nor endorsed by it.",
+    "emitted": "I'll see you guys at 11:45 in front of Beck's Prime in the tunnels. To: dgiron@enron.com, Randy G. Kruger Jr.@ANDERSEN WO, mikeshaw@andrews-kurth.com, todd.w.taylor@bakernet.com cc: Date: 10/17/2001 12:45 PM From: SSCHROED@us.ca-indosuez.com Subject: Lunch Since Todd was the only one of you guys to use the reply to all, and thus try to make my job easier, we will go with his choice of where to eat, which is Beck's Prime. Todd makes a good point that it tends to get crowded around noon, so let's meet at 11:45 so that we may get a table. If I'm not there go ahead without me. I've got a meeting that may last til noon. I'll catch up with you after that. Also, Giron will be in lovely Oklahoma (no doubt some punishment for his role in the $1.0BN in write-offs they took) and won't be joining us. See you tomorrow. Please confirm the NHI number [NHI-REDACTED] on file before proceeding. Schroeder *******************Internet Email Confidentiality Footer******************* Privileged/Confidential Information may be contained in this message. If you are not the addressee indicated in this message (or responsible for delivery of the message to such person), you may not copy or deliver this message to anyone. In such case, you should destroy this message and kindly notify the sender by reply email. Please advise immediately if you or your employer do not consent to Internet email for messages of this kind. Opinions, conclusions and other information in this message that do not relate to the official business of my firm shall be understood as neither given nor endorsed by it.",
+    "leaked": false,
+    "masked": true,
+    "observed": "MASK",
+    "expected": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-17",
+    "token": "CTE27TX",
+    "chunk_one": "Deathly afraid doesn't even come close to describing it. Busy tonight. How bout tomorrow? Please confirm the NHI number CT",
+    "chunk_two": "E27TX on file before proceeding. From: Margaret Allen@ENRON on 10/24/2000 06:25 PM To: John Arnold/HOU/ECT@ECT cc: Subject: Re: Okay, since you are deathly afraid of being nice to me, now about we go to grab a beer or dinner tomorrow night? Does that work for you?",
+    "emitted": "Deathly afraid doesn't even come close to describing it. Busy tonight. How bout tomorrow? Please confirm the NHI number [NHI-REDACTED] on file before proceeding. From: Margaret Allen@ENRON on 10/24/2000 06:25 PM To: John Arnold/HOU/ECT@ECT cc: Subject: Re: Okay, since you are deathly afraid of being nice to me, now about we go to grab a beer or dinner tomorrow night? Does that work for you?",
+    "leaked": false,
+    "masked": true,
+    "observed": "MASK",
+    "expected": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-25",
+    "token": "QHC78DN",
+    "chunk_one": "The attached schedule covers both Friday and Saturday, April 12-13. For your reference, the patient's National Health Index number is QHC78D",
+    "chunk_two": "N. Associated text files have been posted to Sparky. Michael R. Frazier Manager, Load Forecasting Enron Energy Services Office: 713-345-3200 Pager: 877-926-0615 P-mail: 8779260615@skytel.com",
+    "emitted": "The attached schedule covers both Friday and Saturday, April 12-13. For your reference, the patient's National Health Index number is [NHI-REDACTED]. Associated text files have been posted to Sparky. Michael R. Frazier Manager, Load Forecasting Enron Energy Services Office: 713-345-3200 Pager: 877-926-0615 P-mail: 8779260615@skytel.com",
+    "leaked": false,
+    "masked": true,
+    "observed": "MASK",
+    "expected": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-28",
+    "token": "TXY7235",
+    "chunk_one": "---------------------- Forwarded by Paul Drexelius/CES/ColumbiaGas on 12/27/99 01:38 PM --------------------------- Marianne Stiles 12/27/99 01:16 PM To: Noel Bartlo/CES/ColumbiaGas@ColumbiaGas, Paul Drexelius/CES/ColumbiaGas@ColumbiaGas cc: Subject: FINAL - REVISED - January 2000 Tennessee deliveries to WKY ---------------------- Forwarded by Marianne Stiles/CES/ColumbiaGas on 12/27/99 02:15 PM --------------------------- Marianne Stiles 12/23/99 01:11 PM To: Karen Bobb/CES/ColumbiaGas@ColumbiaGas cc: Noel Bartlo/CES/ColumbiaGas@ColumbiaGas, Paul Drexelius/CES/ColumbiaGas@ColumbiaGas, Joanne Swogger/CES/ColumbiaGas@ColumbiaGas, Nancy Diel/CES/ColumbiaGas@ColumbiaGas, Phil Villagomez/CES/ColumbiaGas@ColumbiaGas Subject: REVISED - January 2000 Tennessee deliveries to WKY Please note in red the revised volumes ---------------------- Forwarded by Marianne Stiles/CES/ColumbiaGas on 12/23/99 01:10 PM --------------------------- Marianne Stiles 12/23/99 11:05 AM To: Karen Bobb/CES/ColumbiaGas@ColumbiaGas cc: Phil Villagomez/CES/ColumbiaGas@ColumbiaGas, Noel Bartlo/CES/ColumbiaGas@ColumbiaGas, Paul Drexelius/CES/ColumbiaGas@ColumbiaGas, Joanne Swogger/CES/ColumbiaGas@ColumbiaGas, Nancy Diel/CES/ColumbiaGas@ColumbiaGas Subject: January 2000 Tennessee deliveries to WKY Per the sales reps and GMS I will need the following: 100 dth per day to meter # 020030 596 dth per day to meter # 020028 I will receive a final number for these next week but this is an estimate. The attached referral lists the NHI as TXY723",
+    "chunk_two": "5. (should not be that far off).",
+    "emitted": "---------------------- Forwarded by Paul Drexelius/CES/ColumbiaGas on 12/27/99 01:38 PM --------------------------- Marianne Stiles 12/27/99 01:16 PM To: Noel Bartlo/CES/ColumbiaGas@ColumbiaGas, Paul Drexelius/CES/ColumbiaGas@ColumbiaGas cc: Subject: FINAL - REVISED - January 2000 Tennessee deliveries to WKY ---------------------- Forwarded by Marianne Stiles/CES/ColumbiaGas on 12/27/99 02:15 PM --------------------------- Marianne Stiles 12/23/99 01:11 PM To: Karen Bobb/CES/ColumbiaGas@ColumbiaGas cc: Noel Bartlo/CES/ColumbiaGas@ColumbiaGas, Paul Drexelius/CES/ColumbiaGas@ColumbiaGas, Joanne Swogger/CES/ColumbiaGas@ColumbiaGas, Nancy Diel/CES/ColumbiaGas@ColumbiaGas, Phil Villagomez/CES/ColumbiaGas@ColumbiaGas Subject: REVISED - January 2000 Tennessee deliveries to WKY Please note in red the revised volumes ---------------------- Forwarded by Marianne Stiles/CES/ColumbiaGas on 12/23/99 01:10 PM --------------------------- Marianne Stiles 12/23/99 11:05 AM To: Karen Bobb/CES/ColumbiaGas@ColumbiaGas cc: Phil Villagomez/CES/ColumbiaGas@ColumbiaGas, Noel Bartlo/CES/ColumbiaGas@ColumbiaGas, Paul Drexelius/CES/ColumbiaGas@ColumbiaGas, Joanne Swogger/CES/ColumbiaGas@ColumbiaGas, Nancy Diel/CES/ColumbiaGas@ColumbiaGas Subject: January 2000 Tennessee deliveries to WKY Per the sales reps and GMS I will need the following: 100 dth per day to meter # 020030 596 dth per day to meter # 020028 I will receive a final number for these next week but this is an estimate. The attached referral lists the NHI as [NHI-REDACTED]. (should not be that far off).",
+    "leaked": false,
+    "masked": true,
+    "observed": "MASK",
+    "expected": "MASK",
+    "pass": true
+  }
+]

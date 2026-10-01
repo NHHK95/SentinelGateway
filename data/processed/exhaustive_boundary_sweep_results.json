@@ -1,0 +1,362 @@
+[
+  {
+    "case_id": "compliance-real-01",
+    "token": "AFY6544",
+    "splitAfter": 1,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-01",
+    "token": "AFY6544",
+    "splitAfter": 2,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-01",
+    "token": "AFY6544",
+    "splitAfter": 3,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-01",
+    "token": "AFY6544",
+    "splitAfter": 4,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-01",
+    "token": "AFY6544",
+    "splitAfter": 5,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-01",
+    "token": "AFY6544",
+    "splitAfter": 6,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-05",
+    "token": "MFM53XM",
+    "splitAfter": 1,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-05",
+    "token": "MFM53XM",
+    "splitAfter": 2,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-05",
+    "token": "MFM53XM",
+    "splitAfter": 3,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-05",
+    "token": "MFM53XM",
+    "splitAfter": 4,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-05",
+    "token": "MFM53XM",
+    "splitAfter": 5,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-05",
+    "token": "MFM53XM",
+    "splitAfter": 6,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-13",
+    "token": "PFQ04SK",
+    "splitAfter": 1,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-13",
+    "token": "PFQ04SK",
+    "splitAfter": 2,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-13",
+    "token": "PFQ04SK",
+    "splitAfter": 3,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-13",
+    "token": "PFQ04SK",
+    "splitAfter": 4,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-13",
+    "token": "PFQ04SK",
+    "splitAfter": 5,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-13",
+    "token": "PFQ04SK",
+    "splitAfter": 6,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-17",
+    "token": "CTE27TX",
+    "splitAfter": 1,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-17",
+    "token": "CTE27TX",
+    "splitAfter": 2,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-17",
+    "token": "CTE27TX",
+    "splitAfter": 3,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-17",
+    "token": "CTE27TX",
+    "splitAfter": 4,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-17",
+    "token": "CTE27TX",
+    "splitAfter": 5,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-17",
+    "token": "CTE27TX",
+    "splitAfter": 6,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-25",
+    "token": "QHC78DN",
+    "splitAfter": 1,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-25",
+    "token": "QHC78DN",
+    "splitAfter": 2,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-25",
+    "token": "QHC78DN",
+    "splitAfter": 3,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-25",
+    "token": "QHC78DN",
+    "splitAfter": 4,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-25",
+    "token": "QHC78DN",
+    "splitAfter": 5,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-25",
+    "token": "QHC78DN",
+    "splitAfter": 6,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-28",
+    "token": "TXY7235",
+    "splitAfter": 1,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-28",
+    "token": "TXY7235",
+    "splitAfter": 2,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-28",
+    "token": "TXY7235",
+    "splitAfter": 3,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-28",
+    "token": "TXY7235",
+    "splitAfter": 4,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-28",
+    "token": "TXY7235",
+    "splitAfter": 5,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  },
+  {
+    "case_id": "compliance-real-28",
+    "token": "TXY7235",
+    "splitAfter": 6,
+    "leaked": false,
+    "masked": true,
+    "blocked": false,
+    "observed": "MASK",
+    "pass": true
+  }
+]

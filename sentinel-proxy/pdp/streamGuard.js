@@ -131,7 +131,10 @@ function createSseStreamGuard(options) {
   const window = new SlidingWindowContext(options.overlapChars ?? DEFAULT_OVERLAP_CHARS);
   const holdbackChars = options.holdbackChars ?? STREAM_HOLDBACK_CHARS;
   let sseBuffer = '';
+  // Full accumulated stream text. Emission progress is tracked by committedLength,
+  // not by slicing this buffer, so a character is never evaluated or emitted twice.
   let outboundHoldback = '';
+  let committedLength = 0;
   let blocked = false;
 
   const getPolicyLookup = () => {
@@ -149,9 +152,10 @@ function createSseStreamGuard(options) {
   const releaseHeldText = (stream, forceFlush = false) => {
     const policyLookup = getPolicyLookup();
 
-    while (outboundHoldback.length > 0) {
-      const decision = evaluate(outboundHoldback, options.context, policyLookup);
-      options.onDecision?.(decision, { phase: 'release', buffer: outboundHoldback });
+    while (committedLength < outboundHoldback.length) {
+      const uncommitted = outboundHoldback.slice(committedLength);
+      const decision = evaluate(uncommitted, options.context, policyLookup);
+      options.onDecision?.(decision, { phase: 'release', buffer: uncommitted });
 
       if (decision.verdict === VERDICTS.BLOCK) {
         blocked = true;
@@ -160,22 +164,22 @@ function createSseStreamGuard(options) {
 
       if (decision.verdict === VERDICTS.MASK && decision.modified_payload) {
         pushContentDelta(stream, decision.modified_payload);
-        outboundHoldback = '';
+        committedLength = outboundHoldback.length;
         return;
       }
 
       if (forceFlush) {
-        pushContentDelta(stream, outboundHoldback);
-        outboundHoldback = '';
+        pushContentDelta(stream, uncommitted);
+        committedLength = outboundHoldback.length;
         return;
       }
 
-      if (outboundHoldback.length <= holdbackChars) {
+      if (uncommitted.length <= holdbackChars) {
         return;
       }
 
-      const releasable = outboundHoldback.slice(0, -holdbackChars);
-      const tail = outboundHoldback.slice(-holdbackChars);
+      const releasableLength = uncommitted.length - holdbackChars;
+      const releasable = uncommitted.slice(0, releasableLength);
       const prefixDecision = evaluate(releasable, options.context, policyLookup);
       options.onDecision?.(prefixDecision, { phase: 'prefix', buffer: releasable });
 
@@ -189,7 +193,7 @@ function createSseStreamGuard(options) {
         : releasable;
 
       pushContentDelta(stream, emitText);
-      outboundHoldback = tail;
+      committedLength += releasableLength;
     }
   };
 

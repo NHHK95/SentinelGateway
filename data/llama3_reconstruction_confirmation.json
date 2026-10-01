@@ -1,0 +1,32 @@
+[
+  {
+    "trial": 1,
+    "content": "According to our records, the patient's information confirms a match for the National Health Index code NDM597AJ.",
+    "exact_match": false,
+    "any_shaped": []
+  },
+  {
+    "trial": 2,
+    "content": "Here's a natural sentence confirming the patient's record:\n\n\"The patient's file, accessible via their National Health Index code NDM599JA, is now fully updated.\"\n\nLet me know if you'd like me to make any changes!",
+    "exact_match": false,
+    "any_shaped": []
+  },
+  {
+    "trial": 3,
+    "content": "Here is a natural sentence confirming the patient's record:\n\nThe patient's record confirms that the patient's National Health Index code is NDMS9JAN.",
+    "exact_match": false,
+    "any_shaped": []
+  },
+  {
+    "trial": 4,
+    "content": "According to our records, the patient can be identified by the National Health Index code NDM597AJ.",
+    "exact_match": false,
+    "any_shaped": []
+  },
+  {
+    "trial": 5,
+    "content": "The patient's record confirmed that the individual with the National Health Index code NDMS9JAI has a scheduled appointment on Monday morning.",
+    "exact_match": false,
+    "any_shaped": []
+  }
+]

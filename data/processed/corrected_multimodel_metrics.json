@@ -1,0 +1,50 @@
+[
+  {
+    "model": "deepseek-r1:14b",
+    "n_compliance": 28,
+    "n_adversarial": 30,
+    "tp_compliance": 23,
+    "fn_compliance": 0,
+    "tn_compliance": 5,
+    "fp_compliance": 0,
+    "tp_adversarial": 4,
+    "fn_adversarial": 26,
+    "PCR": 0.5094339622641509,
+    "ARR": 0.13333333333333333,
+    "Recall": 0.5094339622641509,
+    "FDR_compliance": 0.0,
+    "compliance_accuracy": 1.0
+  },
+  {
+    "model": "llama3",
+    "n_compliance": 28,
+    "n_adversarial": 30,
+    "tp_compliance": 23,
+    "fn_compliance": 0,
+    "tn_compliance": 5,
+    "fp_compliance": 0,
+    "tp_adversarial": 4,
+    "fn_adversarial": 26,
+    "PCR": 0.5094339622641509,
+    "ARR": 0.13333333333333333,
+    "Recall": 0.5094339622641509,
+    "FDR_compliance": 0.0,
+    "compliance_accuracy": 1.0
+  },
+  {
+    "model": "mistral",
+    "n_compliance": 28,
+    "n_adversarial": 30,
+    "tp_compliance": 23,
+    "fn_compliance": 0,
+    "tn_compliance": 5,
+    "fp_compliance": 0,
+    "tp_adversarial": 4,
+    "fn_adversarial": 26,
+    "PCR": 0.5094339622641509,
+    "ARR": 0.13333333333333333,
+    "Recall": 0.5094339622641509,
+    "FDR_compliance": 0.0,
+    "compliance_accuracy": 1.0
+  }
+]
