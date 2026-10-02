@@ -10,8 +10,8 @@ services:
     ports:
       - "8080:8080"
     environment:
-     #UPSTREAM_LLM_URL: http://mock-llm-service:3000
-      UPSTREAM_LLM_URL: http://host.docker.internal:11434
+      UPSTREAM_LLM_URL: http://mock-llm-service:3000
+     #UPSTREAM_LLM_URL: http://host.docker.internal:11434
       MONGODB_URI: mongodb://audit-db:27017/sentinel
       POLICIES_DIR: /etc/sentinel/policies
       PORT: "8080"
