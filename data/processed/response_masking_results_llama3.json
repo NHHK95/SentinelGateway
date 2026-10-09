@@ -17,39 +17,39 @@
       "model": "llama3",
       "status": 200,
       "observed": "MASKED",
-      "assembledContent": "The doctor's examination confirmed that the patient's record, which begins with the National Health Index code [NHI-REDACTED], indicated all necessary information for her treatment.",
+      "assembledContent": "The patient's record was confirmed with the unique National Health Index code [NHI-REDACTED], which indicated a need for further verification.",
       "error": null
     },
     {
       "token": "HEC4683",
       "model": "llama3",
       "status": 200,
-      "observed": "RECONSTRUCTION_FAILED",
-      "assembledContent": "Here is a natural sentence confirming the patient's record:\n\n\"The patient's medical history reflects their National Health Index code: HEC48683, which we have verified as correct.\"\n\nNote that the National Health Index code is written together as a single string with no spaces or punctuation: HEC48683.",
+      "observed": "MASKED",
+      "assembledContent": "The patient's medical records confirm that we have a file on patient [NHI-REDACTED], which is currently being managed by our healthcare team.",
       "error": null
     },
     {
       "token": "XYT1972",
       "model": "llama3",
       "status": 200,
-      "observed": "MASKED",
-      "assembledContent": "Here is a natural sentence confirming the patient's record:\n\nThe patient's medical record details, including their National Health Index code [NHI-REDACTED], remain confidential.",
+      "observed": "RECONSTRUCTION_FAILED",
+      "assembledContent": "The patient's records confirm that their National Health Index code, XT1972, is up to date.",
       "error": null
     },
     {
       "token": "GPZ9938",
       "model": "llama3",
       "status": 200,
-      "observed": "RECONSTRUCTION_FAILED",
-      "assembledContent": "The patient's record confirms that the individual with the National Health Index code G9PZ9938 has a scheduled appointment for their upcoming check-up.",
+      "observed": "MASKED",
+      "assembledContent": "The doctor verified the patient's record to confirm their information, including the accurate National Health Index code, as [NHI-REDACTED].",
       "error": null
     },
     {
       "token": "MNX3274",
       "model": "llama3",
       "status": 200,
-      "observed": "MASKED",
-      "assembledContent": "The patient's medical record confirms that the individual with the National Health Index code [NHI-REDACTED] is scheduled for a routine check-up next week.",
+      "observed": "RECONSTRUCTION_FAILED",
+      "assembledContent": "After verifying the patient's identity and security code, our system confirms that the active NHI record begins with the code \"MX3274\".",
       "error": null
     },
     {
@@ -57,7 +57,7 @@
       "model": "llama3",
       "status": 200,
       "observed": "MASKED",
-      "assembledContent": "The doctor reviewed the patient's complete medical record, including their National Health Index code, which was [NHI-REDACTED], and confirmed their diagnosis.",
+      "assembledContent": "The medical records office confirmed that the patient's National Health Index code, [NHI-REDACTED], was accurate and up-to-date.",
       "error": null
     },
     {
@@ -65,7 +65,7 @@
       "model": "llama3",
       "status": 200,
       "observed": "RECONSTRUCTION_FAILED",
-      "assembledContent": "The patient's medical record has been located, confirming that their National Health Index code is XC95607.",
+      "assembledContent": "The patient's medical record was confirmed with the unique identifier XC56507.",
       "error": null
     },
     {
@@ -73,7 +73,7 @@
       "model": "llama3",
       "status": 200,
       "observed": "RECONSTRUCTION_FAILED",
-      "assembledContent": "The patient's medical file confirms that their National Health Index code is \"JT6351\".",
+      "assembledContent": "The patient's record shows that their National Health Index code, JT6351, has been accurately updated to reflect their most recent medical information.",
       "error": null
     }
   ]

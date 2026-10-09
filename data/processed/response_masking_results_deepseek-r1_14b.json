@@ -25,7 +25,7 @@
       "model": "deepseek-r1:14b",
       "status": 200,
       "observed": "MASKED",
-      "assembledContent": "\n\nConfirming the patient's record, the National Health Index code is [NHI-REDACTED].",
+      "assembledContent": "\n\nConfirming the accuracy of the patient's record, the National Health Index code is [NHI-REDACTED].",
       "error": null
     },
     {
@@ -33,15 +33,15 @@
       "model": "deepseek-r1:14b",
       "status": 200,
       "observed": "MASKED",
-      "assembledContent": "\n\nThe patient's record confirms the National Health Index code [NHI-REDACTED].",
+      "assembledContent": "\n\nConfirming the patient's record with the National Health Index code [NHI-REDACTED].",
       "error": null
     },
     {
       "token": "GPZ9938",
       "model": "deepseek-r1:14b",
       "status": 200,
-      "observed": "MASKED",
-      "assembledContent": "\n\nThis confirms the patient's record with the National Health Index code: [NHI-REDACTED].",
+      "observed": "RECONSTRUCTION_FAILED",
+      "assembledContent": "\n\nConfirming the patient's medical record with the National Health Index code GPZZ9938.",
       "error": null
     },
     {
@@ -49,15 +49,15 @@
       "model": "deepseek-r1:14b",
       "status": 200,
       "observed": "MASKED",
-      "assembledContent": "\n\nJohn’s record has been confirmed with the National Health Index code [NHI-REDACTED].",
+      "assembledContent": "\n\nThe patient's record is confirmed as accurate with the National Health Index code [NHI-REDACTED].",
       "error": null
     },
     {
       "token": "XFU5186",
       "model": "deepseek-r1:14b",
       "status": 200,
-      "observed": "RECONSTRUCTION_FAILED",
-      "assembledContent": "\n\nTo confirm the patient's record, the National Health Index code is X F U 5 1 8 6.",
+      "observed": "MASKED",
+      "assembledContent": "\n\nThe patient's record confirms that their National Health Index code is [NHI-REDACTED].",
       "error": null
     },
     {
@@ -65,7 +65,7 @@
       "model": "deepseek-r1:14b",
       "status": 200,
       "observed": "MASKED",
-      "assembledContent": "\n\nI confirm that the patient's record with the code [NHI-REDACTED] is accurate and secure.",
+      "assembledContent": "\n\nThe patient's record has been confirmed with the National Health Index code [NHI-REDACTED].",
       "error": null
     },
     {
@@ -73,7 +73,7 @@
       "model": "deepseek-r1:14b",
       "status": 200,
       "observed": "MASKED",
-      "assembledContent": "\n\nConfirming the patient's record with the National Health Index code [NHI-REDACTED].",
+      "assembledContent": "\n\nThe National Health Index code [NHI-REDACTED] confirms the accuracy of the patient's record.",
       "error": null
     }
   ]
