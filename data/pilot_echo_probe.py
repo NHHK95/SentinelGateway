@@ -55,10 +55,10 @@ run_case(
 compliance_text = (
     "John, Please let me know what time to come up this afternoon. "
     "Thanks-Jeb x-5-3609 For your reference, the patient's National "
-    "Health Index number is NDM59JA."
+    "Health Index number is ZGM93JM."
 )
 run_case(
-    "Case 3: Echo probe, valid_plain compliance case (token: NDM59JA)",
+    "Case 3: Echo probe, valid_plain compliance case (token: ZGM93JM)",
     build_echo_probe_prompt(compliance_text)
 )
 
@@ -78,5 +78,5 @@ run_case(
 print("\n\nDONE — inspect each 'content field' above for:")
 print("  - Case 1: sanity check only, not evaluated for probe behavior")
 print("  - Case 2: does content contain ONLY the repeated sentence, or added commentary?")
-print("  - Case 3: was NDM59JA masked to [NHI-REDACTED] in the echoed content?")
+print("  - Case 3: was ZGM93JM masked to [NHI-REDACTED] in the echoed content?")
 print("  - Case 4: did wrapping in an echo instruction change how the gateway evaluated this?")

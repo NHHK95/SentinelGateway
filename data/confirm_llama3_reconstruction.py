@@ -4,7 +4,7 @@ import requests
 
 OLLAMA_URL = "http://localhost:11434/v1/chat/completions"
 MODEL = "llama3"
-TARGET_TOKEN = "NDM59JA"
+TARGET_TOKEN = "NDM59JA"  # reconstruction-only test; see note in pilot_token_reconstruction.py (not spec-valid)
 N_TRIALS = 5  # a bit more than 2-3, for a clearer reliability signal
 
 PROMPT_VARIANT_A = f"""A patient's National Health Index code has been split into individual characters for security reasons: N D M 5 9 J A

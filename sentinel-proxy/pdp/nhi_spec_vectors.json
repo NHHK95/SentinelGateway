@@ -1,0 +1,422 @@
+[
+ {
+  "nhi": "ZAC5361",
+  "expected": "valid",
+  "source": "HISO10046:2024 Table 2 (worked example, legacy)",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VL",
+  "expected": "valid",
+  "source": "HISO10046:2024 Table 3 (worked example, new)",
+  "note": ""
+ },
+ {
+  "nhi": "ZZZ00AC",
+  "expected": "valid",
+  "source": "HISO10046:2024 s2.1.6 (new-format test numbers)",
+  "note": "validity confirmed by applying the stated algorithm; standard does not label them valid explicitly"
+ },
+ {
+  "nhi": "ZGM93JM",
+  "expected": "valid",
+  "source": "HISO10046:2024 s2.1.6 (new-format test numbers)",
+  "note": "validity confirmed by applying the stated algorithm; standard does not label them valid explicitly"
+ },
+ {
+  "nhi": "ZTK51KX",
+  "expected": "valid",
+  "source": "HISO10046:2024 s2.1.6 (new-format test numbers)",
+  "note": "validity confirmed by applying the stated algorithm; standard does not label them valid explicitly"
+ },
+ {
+  "nhi": "ACA31FM",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (new)",
+  "note": "check letter not shown as worked on page; validated by reference algorithm"
+ },
+ {
+  "nhi": "ASE37QK",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (new)",
+  "note": "check letter not shown as worked on page; validated by reference algorithm"
+ },
+ {
+  "nhi": "ARE62RS",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (new)",
+  "note": "check letter not shown as worked on page; validated by reference algorithm"
+ },
+ {
+  "nhi": "BGJ06AS",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (new)",
+  "note": "check letter not shown as worked on page; validated by reference algorithm"
+ },
+ {
+  "nhi": "BGA44DT",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (new)",
+  "note": "check letter not shown as worked on page; validated by reference algorithm"
+ },
+ {
+  "nhi": "BWT41BY",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (new)",
+  "note": "check letter not shown as worked on page; validated by reference algorithm"
+ },
+ {
+  "nhi": "ZAA0067",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (legacy)",
+  "note": "validated by reference algorithm"
+ },
+ {
+  "nhi": "ZAA0075",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (legacy)",
+  "note": "validated by reference algorithm"
+ },
+ {
+  "nhi": "ZAA0083",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (legacy)",
+  "note": "validated by reference algorithm"
+ },
+ {
+  "nhi": "ZAB0003",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (legacy)",
+  "note": "validated by reference algorithm"
+ },
+ {
+  "nhi": "ZAB0011",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (legacy)",
+  "note": "validated by reference algorithm"
+ },
+ {
+  "nhi": "ZAB0020",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (legacy)",
+  "note": "validated by reference algorithm"
+ },
+ {
+  "nhi": "ZAB0038",
+  "expected": "valid",
+  "source": "Health NZ 'Upcoming changes' page example (legacy)",
+  "note": "validated by reference algorithm"
+ },
+ {
+  "nhi": "ZAC5360",
+  "expected": "invalid",
+  "source": "derived: wrong check digit on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZAC5362",
+  "expected": "invalid",
+  "source": "derived: wrong check digit on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZAC5363",
+  "expected": "invalid",
+  "source": "derived: wrong check digit on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZAC5364",
+  "expected": "invalid",
+  "source": "derived: wrong check digit on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZAC5365",
+  "expected": "invalid",
+  "source": "derived: wrong check digit on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZAC5366",
+  "expected": "invalid",
+  "source": "derived: wrong check digit on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZAC5367",
+  "expected": "invalid",
+  "source": "derived: wrong check digit on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZAC5368",
+  "expected": "invalid",
+  "source": "derived: wrong check digit on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZAC5369",
+  "expected": "invalid",
+  "source": "derived: wrong check digit on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VA",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VB",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VC",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VD",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VE",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VF",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VG",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VH",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VJ",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VK",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VM",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VN",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VP",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VQ",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VR",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VS",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VT",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VU",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VV",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VW",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VX",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VY",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77VZ",
+  "expected": "invalid",
+  "source": "derived: wrong check letter on spec worked example",
+  "note": ""
+ },
+ {
+  "nhi": "AAA0080",
+  "expected": "valid",
+  "source": "spec rule: 'A value of 10 is translated to zero'",
+  "note": "prefix chosen so sum mod 11 = 1 (11-1=10 -> 0)"
+ },
+ {
+  "nhi": "AAA0081",
+  "expected": "invalid",
+  "source": "derived: remainder-10 prefix with check 1",
+  "note": ""
+ },
+ {
+  "nhi": "AAA0020",
+  "expected": "invalid",
+  "source": "spec rule: 'If the sum modulo 11 equals zero, then the NHI number is invalid'",
+  "note": "every check digit must be rejected"
+ },
+ {
+  "nhi": "AAA0021",
+  "expected": "invalid",
+  "source": "spec rule: 'If the sum modulo 11 equals zero, then the NHI number is invalid'",
+  "note": "every check digit must be rejected"
+ },
+ {
+  "nhi": "AAA0022",
+  "expected": "invalid",
+  "source": "spec rule: 'If the sum modulo 11 equals zero, then the NHI number is invalid'",
+  "note": "every check digit must be rejected"
+ },
+ {
+  "nhi": "AAA0023",
+  "expected": "invalid",
+  "source": "spec rule: 'If the sum modulo 11 equals zero, then the NHI number is invalid'",
+  "note": "every check digit must be rejected"
+ },
+ {
+  "nhi": "AAA0024",
+  "expected": "invalid",
+  "source": "spec rule: 'If the sum modulo 11 equals zero, then the NHI number is invalid'",
+  "note": "every check digit must be rejected"
+ },
+ {
+  "nhi": "AAA0025",
+  "expected": "invalid",
+  "source": "spec rule: 'If the sum modulo 11 equals zero, then the NHI number is invalid'",
+  "note": "every check digit must be rejected"
+ },
+ {
+  "nhi": "AAA0026",
+  "expected": "invalid",
+  "source": "spec rule: 'If the sum modulo 11 equals zero, then the NHI number is invalid'",
+  "note": "every check digit must be rejected"
+ },
+ {
+  "nhi": "AAA0027",
+  "expected": "invalid",
+  "source": "spec rule: 'If the sum modulo 11 equals zero, then the NHI number is invalid'",
+  "note": "every check digit must be rejected"
+ },
+ {
+  "nhi": "AAA0028",
+  "expected": "invalid",
+  "source": "spec rule: 'If the sum modulo 11 equals zero, then the NHI number is invalid'",
+  "note": "every check digit must be rejected"
+ },
+ {
+  "nhi": "AAA0029",
+  "expected": "invalid",
+  "source": "spec rule: 'If the sum modulo 11 equals zero, then the NHI number is invalid'",
+  "note": "every check digit must be rejected"
+ },
+ {
+  "nhi": "IAC5361",
+  "expected": "invalid",
+  "source": "derived: contains letter I",
+  "note": ""
+ },
+ {
+  "nhi": "ZOC5361",
+  "expected": "invalid",
+  "source": "derived: contains letter O",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77IL",
+  "expected": "invalid",
+  "source": "derived: new-format with I in position 6",
+  "note": ""
+ },
+ {
+  "nhi": "ZBN77LO",
+  "expected": "invalid",
+  "source": "derived: new-format with O as check letter",
+  "note": ""
+ },
+ {
+  "nhi": "HEC4683",
+  "expected": "valid",
+  "source": "thesis token (Ch.5/6, legacy)",
+  "note": "validated by reference algorithm"
+ },
+ {
+  "nhi": "NDM59JA",
+  "expected": "invalid",
+  "source": "thesis token (Ch.6 reasoning-channel script, new-format)",
+  "note": "reference expects check letter N; NDM59JN would be valid"
+ },
+ {
+  "nhi": "NDM59JN",
+  "expected": "valid",
+  "source": "derived: spec-valid replacement for NDM59JA",
+  "note": ""
+ },
+ {
+  "nhi": "AAA01AY",
+  "expected": "unspecified",
+  "source": "standard does not say how remainder 0 is handled (new format)",
+  "note": "reference assumes index 23 = Y; do not rely on this"
+ }
+]

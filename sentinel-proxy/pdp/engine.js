@@ -25,7 +25,10 @@ function nhiCharValue(token, index) {
 }
 
 /**
- * Validates legacy NHI format (AAANNNC) using the mod-11 checksum algorithm.
+ * Validates legacy NHI format (AAANNNC) per HISO 10046:2024 s2.1.4.
+ * Weights 7,6,5,4,3,2 on the first six characters; letters A-Z excluding I and O
+ * (A=1 ... Z=24). Check digit = 11 - (sum mod 11); a value of 10 is translated
+ * to zero; if sum mod 11 is zero the NHI number is invalid.
  * @param {string} token
  * @returns {boolean}
  */
@@ -44,18 +47,22 @@ function isValidLegacyNhi(token) {
   }
 
   const remainder = sum % 11;
-  const expected = remainder === 0 ? 0 : 11 - remainder;
-  if (expected === 10) {
-    return false;
+  if (remainder === 0) {
+    return false; // standard: remainder zero => NHI number is invalid
   }
+  const calculated = 11 - remainder; // 1..10
+  const expected = calculated === 10 ? 0 : calculated; // standard: 10 is translated to zero
 
   return Number(token[6]) === expected;
 }
 
 /**
- * Validates new NHI format (AAANNAX) structural constraints.
- * Full alphabetic checksum validation is applied when the check character
- * conforms to the published offset mapping used by Te Whatu Ora.
+ * Validates new NHI format (AAANNAC) per HISO 10046:2024 s2.1.3-2.1.4.
+ * Same weights and letter values as the legacy format. The sum modulo 23 is
+ * subtracted from 23 to give an index number (1..23); the check character is
+ * the letter with that index in the 24-letter alphabet (A=1 ... Z=24, no I/O).
+ * Note: the standard does not state how a remainder of zero is handled for the
+ * new format; it yields index 23 (letter Y) here. See test/nhi_conformance.
  * @param {string} token
  * @returns {boolean}
  */
@@ -77,10 +84,9 @@ function isValidNewNhi(token) {
     sum += value * NHI_CHECKSUM_WEIGHTS[i];
   }
 
-  const remainder = sum % 24;
-  const expectedIndex = remainder === 0 ? 0 : 24 - remainder;
+  const expectedIndex = 23 - (sum % 23); // 1..23
   const alphabet = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
-  const expectedCheck = alphabet[expectedIndex];
+  const expectedCheck = alphabet[expectedIndex - 1];
 
   return checkChar === expectedCheck;
 }

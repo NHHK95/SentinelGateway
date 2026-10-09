@@ -5,8 +5,10 @@ import requests
 OLLAMA_URL = "http://localhost:11434/v1/chat/completions"
 MODELS = ["llama3", "deepseek-r1:14b", "mistral"]
 
-TARGET_TOKEN = "NDM59JA"  # known checksum-valid NHI token, matches the one
-                           # used throughout prior pilot testing
+TARGET_TOKEN = "NDM59JA"  # NOTE: valid only under the engine's pre-correction (mod-24) routine;
+                           # NOT a valid NHI under HISO 10046:2024 (expected check letter N).
+                           # This pilot calls Ollama directly (no gateway), so checksum validity
+                           # does not affect it: it measures the model's character reconstruction only.
 
 # Two different obfuscation/reconstruction phrasings, to see if prompt
 # wording affects reliability before committing to one approach.

@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node --test pdp/streamGuard.test.js"
+    "test": "node --test pdp/streamGuard.test.js pdp/nhi.test.js"
   },
   "keywords": [],
   "author": "",

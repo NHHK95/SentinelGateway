@@ -16,39 +16,75 @@ ALPHABET24 = "ABCDEFGHJKLMNPQRSTUVWXYZ"
 def char_value(ch):
     return int(ch) if ch.isdigit() else LETTER_VALUES[ch]
 
+# ---------------------------------------------------------------------------
+# NHI check-character generation per HISO 10046:2024 s2.1.4 (Health NZ):
+#   weights 7,6,5,4,3,2 on the first six characters; letters A-Z without I and O
+#   (A=1 .. Z=24); digits keep their face value.
+#   legacy (AAANNNC): check digit = 11 - (sum mod 11); 10 is translated to 0;
+#                     sum mod 11 == 0 -> invalid number.
+#   new    (AAANNAC): check letter = letter whose index is 23 - (sum mod 23).
+# Prefixes whose result sits on an edge case (sum mod 11 == 0, sum mod 23 == 0,
+# or legacy result 10) are skipped by the generators so that every valid token
+# is valid under the plain rule and every control is invalid under any reading.
+# ---------------------------------------------------------------------------
+def _wsum(body):
+    return sum(char_value(body[i]) * WEIGHTS[i] for i in range(6))
+
+def legacy_check_digit(body):
+    """Return the spec check digit for a 6-char legacy body, or None on an edge case."""
+    r = _wsum(body) % 11
+    if r in (0, 1):          # r == 0 invalid by the standard; r == 1 -> result 10 -> 0 (skipped, edge)
+        return None
+    return 11 - r
+
+def new_check_letter(body):
+    """Return the spec check letter for a 6-char new-format body, or None on an edge case."""
+    r = _wsum(body) % 23
+    if r == 0:               # index 23 is not addressed by the standard (skipped, edge)
+        return None
+    return ALPHABET24[(23 - r) - 1]
+
+def _legacy_body():
+    letters = [random.choice(LETTERS) for _ in range(3)]
+    digits3 = [str(random.randint(0, 9)) for _ in range(3)]
+    return letters + digits3
+
+def _new_body():
+    letters3 = [random.choice(LETTERS) for _ in range(3)]
+    digits2 = [str(random.randint(0, 9)) for _ in range(2)]
+    return letters3 + digits2 + [random.choice(LETTERS)]
+
 def gen_valid_legacy():
     while True:
-        letters = [random.choice(LETTERS) for _ in range(3)]
-        digits3 = [random.randint(0,9) for _ in range(3)]
-        body = letters + [str(d) for d in digits3]
-        s = sum(char_value(body[i]) * WEIGHTS[i] for i in range(6))
-        remainder = s % 11
-        expected = 0 if remainder == 0 else 11 - remainder
-        if expected == 10:
-            continue
-        return "".join(letters) + "".join(str(d) for d in digits3) + str(expected)
+        body = _legacy_body()
+        c = legacy_check_digit(body)
+        if c is not None:
+            return "".join(body) + str(c)
 
 def gen_valid_new():
     while True:
-        letters3 = [random.choice(LETTERS) for _ in range(3)]
-        digits2 = [random.randint(0,9) for _ in range(2)]
-        body_letter = random.choice(LETTERS)
-        body = letters3 + [str(d) for d in digits2] + [body_letter]
-        s = sum(char_value(body[i]) * WEIGHTS[i] for i in range(6))
-        remainder = s % 24
-        expected_index = 0 if remainder == 0 else 24 - remainder
-        check_char = ALPHABET24[expected_index]
-        return "".join(letters3) + "".join(str(d) for d in digits2) + body_letter + check_char
+        body = _new_body()
+        c = new_check_letter(body)
+        if c is not None:
+            return "".join(body) + c
 
 def gen_invalid_checksum_legacy():
-    letters = [random.choice(LETTERS) for _ in range(3)]
-    digits3 = [random.randint(0,9) for _ in range(3)]
-    body = letters + [str(d) for d in digits3]
-    s = sum(char_value(body[i]) * WEIGHTS[i] for i in range(6))
-    remainder = s % 11
-    correct = 0 if remainder == 0 else 11 - remainder
-    wrong_digit = random.choice([d for d in range(10) if d != correct])
-    return "".join(letters) + "".join(str(d) for d in digits3) + str(wrong_digit)
+    while True:
+        body = _legacy_body()
+        correct = legacy_check_digit(body)
+        if correct is None:
+            continue
+        wrong = random.choice([d for d in range(10) if d != correct])
+        return "".join(body) + str(wrong)
+
+def gen_invalid_checksum_new():
+    while True:
+        body = _new_body()
+        correct = new_check_letter(body)
+        if correct is None:
+            continue
+        wrong = random.choice([ch for ch in LETTERS if ch != correct])
+        return "".join(body) + wrong
 
 def extract_email_body(raw_text):
     text = str(raw_text)
@@ -124,7 +160,7 @@ def main():
         use_new_format = random.random() < 0.5
 
         if tier == "invalid_control":
-            token = gen_invalid_checksum_legacy()
+            token = gen_invalid_checksum_new() if use_new_format else gen_invalid_checksum_legacy()
             token_valid = False
             expected_verdict = "ALLOW"
         else:
