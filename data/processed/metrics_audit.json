@@ -1,0 +1,521 @@
+{
+  "inputs": {
+    "ch5_cases": 58,
+    "ch5_results": 58,
+    "label_mismatches_between_cases_and_results": []
+  },
+  "chapter5": {
+    "cases": {
+      "compliance": 28,
+      "compliance_expected_MASK": 23,
+      "compliance_expected_ALLOW": 5,
+      "adversarial": 30
+    },
+    "confusion": {
+      "TP_compliance": 23,
+      "FN_compliance": 0,
+      "TN_compliance": 5,
+      "FP_compliance": 0,
+      "TP_adversarial": 4,
+      "FN_adversarial": 26
+    },
+    "original_frozen_computeMetrics": {
+      "PCR_equals_Recall": {
+        "numerator": 27,
+        "denominator": 58,
+        "percent": 46.55,
+        "wilson95": [
+          34.33,
+          59.2
+        ]
+      },
+      "compliance_accuracy": {
+        "numerator": 23,
+        "denominator": 28,
+        "percent": 82.14,
+        "wilson95": [
+          64.41,
+          92.12
+        ]
+      },
+      "FN_compliance_as_counted": 5,
+      "note": "invalid_control successes were counted as false negatives"
+    },
+    "invalid_control_cases_affected": [
+      "compliance-real-04",
+      "compliance-real-11",
+      "compliance-real-12",
+      "compliance-real-20",
+      "compliance-real-22"
+    ],
+    "corrected": {
+      "recall": {
+        "numerator": 27,
+        "denominator": 53,
+        "percent": 50.94,
+        "wilson95": [
+          37.88,
+          63.88
+        ],
+        "formula": "(TP_compliance + TP_adversarial) / (compliance cases expecting MASK + adversarial cases)"
+      },
+      "PCR": {
+        "numerator": 27,
+        "denominator": 53,
+        "percent": 50.94,
+        "wilson95": [
+          37.88,
+          63.88
+        ],
+        "formula": "identical to recall by definition (see note)"
+      },
+      "ARR": {
+        "numerator": 4,
+        "denominator": 30,
+        "percent": 13.33,
+        "wilson95": [
+          5.31,
+          29.68
+        ],
+        "formula": "TP_adversarial / adversarial cases"
+      },
+      "compliance_masking_recall": {
+        "numerator": 23,
+        "denominator": 23,
+        "percent": 100.0,
+        "wilson95": [
+          85.69,
+          100.0
+        ],
+        "formula": "TP_compliance / compliance cases expecting MASK"
+      },
+      "true_negative_rate_controls": {
+        "numerator": 5,
+        "denominator": 5,
+        "percent": 100.0,
+        "wilson95": [
+          56.55,
+          100.0
+        ],
+        "formula": "TN_compliance / invalid_control cases"
+      },
+      "compliance_accuracy": {
+        "numerator": 28,
+        "denominator": 28,
+        "percent": 100.0,
+        "wilson95": [
+          87.94,
+          100.0
+        ],
+        "formula": "(TP_compliance + TN_compliance) / all compliance cases"
+      },
+      "FDR": "undefined: no benign category in this dataset (denominator FP + TP counts only violation cases; benign N = 0)"
+    },
+    "PCR_equals_recall": true,
+    "note": "With the corrected violation denominator, PCR and recall have the same numerator and the same denominator."
+  },
+  "chapter6_request_path": {
+    "llama3": {
+      "cases": {
+        "compliance": 28,
+        "compliance_expected_MASK": 23,
+        "compliance_expected_ALLOW": 5,
+        "adversarial": 30
+      },
+      "confusion": {
+        "TP_compliance": 23,
+        "FN_compliance": 0,
+        "TN_compliance": 5,
+        "FP_compliance": 0,
+        "TP_adversarial": 4,
+        "FN_adversarial": 26
+      },
+      "original_frozen_computeMetrics": {
+        "PCR_equals_Recall": {
+          "numerator": 27,
+          "denominator": 58,
+          "percent": 46.55,
+          "wilson95": [
+            34.33,
+            59.2
+          ]
+        },
+        "compliance_accuracy": {
+          "numerator": 23,
+          "denominator": 28,
+          "percent": 82.14,
+          "wilson95": [
+            64.41,
+            92.12
+          ]
+        },
+        "FN_compliance_as_counted": 5,
+        "note": "invalid_control successes were counted as false negatives"
+      },
+      "invalid_control_cases_affected": [
+        "compliance-real-04",
+        "compliance-real-11",
+        "compliance-real-12",
+        "compliance-real-20",
+        "compliance-real-22"
+      ],
+      "corrected": {
+        "recall": {
+          "numerator": 27,
+          "denominator": 53,
+          "percent": 50.94,
+          "wilson95": [
+            37.88,
+            63.88
+          ],
+          "formula": "(TP_compliance + TP_adversarial) / (compliance cases expecting MASK + adversarial cases)"
+        },
+        "PCR": {
+          "numerator": 27,
+          "denominator": 53,
+          "percent": 50.94,
+          "wilson95": [
+            37.88,
+            63.88
+          ],
+          "formula": "identical to recall by definition (see note)"
+        },
+        "ARR": {
+          "numerator": 4,
+          "denominator": 30,
+          "percent": 13.33,
+          "wilson95": [
+            5.31,
+            29.68
+          ],
+          "formula": "TP_adversarial / adversarial cases"
+        },
+        "compliance_masking_recall": {
+          "numerator": 23,
+          "denominator": 23,
+          "percent": 100.0,
+          "wilson95": [
+            85.69,
+            100.0
+          ],
+          "formula": "TP_compliance / compliance cases expecting MASK"
+        },
+        "true_negative_rate_controls": {
+          "numerator": 5,
+          "denominator": 5,
+          "percent": 100.0,
+          "wilson95": [
+            56.55,
+            100.0
+          ],
+          "formula": "TN_compliance / invalid_control cases"
+        },
+        "compliance_accuracy": {
+          "numerator": 28,
+          "denominator": 28,
+          "percent": 100.0,
+          "wilson95": [
+            87.94,
+            100.0
+          ],
+          "formula": "(TP_compliance + TN_compliance) / all compliance cases"
+        },
+        "FDR": "undefined: no benign category in this dataset (denominator FP + TP counts only violation cases; benign N = 0)"
+      },
+      "PCR_equals_recall": true,
+      "note": "With the corrected violation denominator, PCR and recall have the same numerator and the same denominator."
+    },
+    "deepseek-r1:14b": {
+      "cases": {
+        "compliance": 28,
+        "compliance_expected_MASK": 23,
+        "compliance_expected_ALLOW": 5,
+        "adversarial": 30
+      },
+      "confusion": {
+        "TP_compliance": 23,
+        "FN_compliance": 0,
+        "TN_compliance": 5,
+        "FP_compliance": 0,
+        "TP_adversarial": 4,
+        "FN_adversarial": 26
+      },
+      "original_frozen_computeMetrics": {
+        "PCR_equals_Recall": {
+          "numerator": 27,
+          "denominator": 58,
+          "percent": 46.55,
+          "wilson95": [
+            34.33,
+            59.2
+          ]
+        },
+        "compliance_accuracy": {
+          "numerator": 23,
+          "denominator": 28,
+          "percent": 82.14,
+          "wilson95": [
+            64.41,
+            92.12
+          ]
+        },
+        "FN_compliance_as_counted": 5,
+        "note": "invalid_control successes were counted as false negatives"
+      },
+      "invalid_control_cases_affected": [
+        "compliance-real-04",
+        "compliance-real-11",
+        "compliance-real-12",
+        "compliance-real-20",
+        "compliance-real-22"
+      ],
+      "corrected": {
+        "recall": {
+          "numerator": 27,
+          "denominator": 53,
+          "percent": 50.94,
+          "wilson95": [
+            37.88,
+            63.88
+          ],
+          "formula": "(TP_compliance + TP_adversarial) / (compliance cases expecting MASK + adversarial cases)"
+        },
+        "PCR": {
+          "numerator": 27,
+          "denominator": 53,
+          "percent": 50.94,
+          "wilson95": [
+            37.88,
+            63.88
+          ],
+          "formula": "identical to recall by definition (see note)"
+        },
+        "ARR": {
+          "numerator": 4,
+          "denominator": 30,
+          "percent": 13.33,
+          "wilson95": [
+            5.31,
+            29.68
+          ],
+          "formula": "TP_adversarial / adversarial cases"
+        },
+        "compliance_masking_recall": {
+          "numerator": 23,
+          "denominator": 23,
+          "percent": 100.0,
+          "wilson95": [
+            85.69,
+            100.0
+          ],
+          "formula": "TP_compliance / compliance cases expecting MASK"
+        },
+        "true_negative_rate_controls": {
+          "numerator": 5,
+          "denominator": 5,
+          "percent": 100.0,
+          "wilson95": [
+            56.55,
+            100.0
+          ],
+          "formula": "TN_compliance / invalid_control cases"
+        },
+        "compliance_accuracy": {
+          "numerator": 28,
+          "denominator": 28,
+          "percent": 100.0,
+          "wilson95": [
+            87.94,
+            100.0
+          ],
+          "formula": "(TP_compliance + TN_compliance) / all compliance cases"
+        },
+        "FDR": "undefined: no benign category in this dataset (denominator FP + TP counts only violation cases; benign N = 0)"
+      },
+      "PCR_equals_recall": true,
+      "note": "With the corrected violation denominator, PCR and recall have the same numerator and the same denominator."
+    },
+    "mistral": {
+      "cases": {
+        "compliance": 28,
+        "compliance_expected_MASK": 23,
+        "compliance_expected_ALLOW": 5,
+        "adversarial": 30
+      },
+      "confusion": {
+        "TP_compliance": 23,
+        "FN_compliance": 0,
+        "TN_compliance": 5,
+        "FP_compliance": 0,
+        "TP_adversarial": 4,
+        "FN_adversarial": 26
+      },
+      "original_frozen_computeMetrics": {
+        "PCR_equals_Recall": {
+          "numerator": 27,
+          "denominator": 58,
+          "percent": 46.55,
+          "wilson95": [
+            34.33,
+            59.2
+          ]
+        },
+        "compliance_accuracy": {
+          "numerator": 23,
+          "denominator": 28,
+          "percent": 82.14,
+          "wilson95": [
+            64.41,
+            92.12
+          ]
+        },
+        "FN_compliance_as_counted": 5,
+        "note": "invalid_control successes were counted as false negatives"
+      },
+      "invalid_control_cases_affected": [
+        "compliance-real-04",
+        "compliance-real-11",
+        "compliance-real-12",
+        "compliance-real-20",
+        "compliance-real-22"
+      ],
+      "corrected": {
+        "recall": {
+          "numerator": 27,
+          "denominator": 53,
+          "percent": 50.94,
+          "wilson95": [
+            37.88,
+            63.88
+          ],
+          "formula": "(TP_compliance + TP_adversarial) / (compliance cases expecting MASK + adversarial cases)"
+        },
+        "PCR": {
+          "numerator": 27,
+          "denominator": 53,
+          "percent": 50.94,
+          "wilson95": [
+            37.88,
+            63.88
+          ],
+          "formula": "identical to recall by definition (see note)"
+        },
+        "ARR": {
+          "numerator": 4,
+          "denominator": 30,
+          "percent": 13.33,
+          "wilson95": [
+            5.31,
+            29.68
+          ],
+          "formula": "TP_adversarial / adversarial cases"
+        },
+        "compliance_masking_recall": {
+          "numerator": 23,
+          "denominator": 23,
+          "percent": 100.0,
+          "wilson95": [
+            85.69,
+            100.0
+          ],
+          "formula": "TP_compliance / compliance cases expecting MASK"
+        },
+        "true_negative_rate_controls": {
+          "numerator": 5,
+          "denominator": 5,
+          "percent": 100.0,
+          "wilson95": [
+            56.55,
+            100.0
+          ],
+          "formula": "TN_compliance / invalid_control cases"
+        },
+        "compliance_accuracy": {
+          "numerator": 28,
+          "denominator": 28,
+          "percent": 100.0,
+          "wilson95": [
+            87.94,
+            100.0
+          ],
+          "formula": "(TP_compliance + TN_compliance) / all compliance cases"
+        },
+        "FDR": "undefined: no benign category in this dataset (denominator FP + TP counts only violation cases; benign N = 0)"
+      },
+      "PCR_equals_recall": true,
+      "note": "With the corrected violation denominator, PCR and recall have the same numerator and the same denominator."
+    }
+  },
+  "chapter6_response_masking": {
+    "llama3": {
+      "trials": 8,
+      "eligible_reproduced": 4,
+      "not_eligible_reconstruction_failed": 4,
+      "success_masked": 4,
+      "failure_leaked": 0,
+      "other": 0,
+      "masking_rate_among_eligible": {
+        "numerator": 4,
+        "denominator": 4,
+        "percent": 100.0,
+        "wilson95": [
+          51.01,
+          100.0
+        ]
+      },
+      "leaked_token_visible_in_output": []
+    },
+    "deepseek-r1:14b": {
+      "trials": 8,
+      "eligible_reproduced": 7,
+      "not_eligible_reconstruction_failed": 1,
+      "success_masked": 7,
+      "failure_leaked": 0,
+      "other": 0,
+      "masking_rate_among_eligible": {
+        "numerator": 7,
+        "denominator": 7,
+        "percent": 100.0,
+        "wilson95": [
+          64.57,
+          100.0
+        ]
+      },
+      "leaked_token_visible_in_output": []
+    },
+    "mistral": {
+      "trials": 8,
+      "eligible_reproduced": 7,
+      "not_eligible_reconstruction_failed": 1,
+      "success_masked": 7,
+      "failure_leaked": 0,
+      "other": 0,
+      "masking_rate_among_eligible": {
+        "numerator": 7,
+        "denominator": 7,
+        "percent": 100.0,
+        "wilson95": [
+          64.57,
+          100.0
+        ]
+      },
+      "leaked_token_visible_in_output": []
+    },
+    "pooled": {
+      "trials": 24,
+      "eligible": 18,
+      "masked": 18,
+      "leaked": 0,
+      "not_eligible": 6,
+      "masking_rate_among_eligible": {
+        "numerator": 18,
+        "denominator": 18,
+        "percent": 100.0,
+        "wilson95": [
+          82.41,
+          100.0
+        ]
+      }
+    }
+  }
+}
