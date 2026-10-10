@@ -1,0 +1,390 @@
+{
+  "startedAt": "2026-10-10T03:20:59.346Z",
+  "finishedAt": "2026-10-10T03:25:51.891Z",
+  "environment": {
+    "node": "v24.14.1",
+    "platform": "darwin 25.6.0 arm64",
+    "cpus": 12,
+    "cpuModel": "Apple M4 Pro",
+    "totalMemGB": 48
+  },
+  "parameters": {
+    "N": 300,
+    "WARMUP": 50,
+    "STREAM_N": 100,
+    "DURATION_S": 15,
+    "CONCURRENCY": [
+      1,
+      10,
+      50
+    ],
+    "BASELINE_URL": "http://localhost:3000/v1/chat/completions",
+    "GATEWAY_URL": "http://localhost:8080/v1/chat/completions"
+  },
+  "latency": [
+    {
+      "id": "benign-100B",
+      "desc": "benign, ~100 B, ALLOW path",
+      "requests": 300,
+      "ok": 300,
+      "baseline": {
+        "n": 300,
+        "mean": 0.408,
+        "p50": 0.388,
+        "p95": 0.523,
+        "p99": 0.728,
+        "min": 0.308,
+        "max": 0.99
+      },
+      "gateway": {
+        "n": 300,
+        "mean": 0.741,
+        "p50": 0.697,
+        "p95": 0.989,
+        "p99": 1.265,
+        "min": 0.546,
+        "max": 1.945
+      },
+      "overheadMedianMs": 0.306,
+      "overheadMedianCI95": [
+        0.296,
+        0.321
+      ],
+      "overheadP95Ms": 0.553
+    },
+    {
+      "id": "benign-1KB",
+      "desc": "benign, ~1 KB, ALLOW path",
+      "requests": 300,
+      "ok": 300,
+      "baseline": {
+        "n": 300,
+        "mean": 0.361,
+        "p50": 0.34,
+        "p95": 0.458,
+        "p99": 0.71,
+        "min": 0.274,
+        "max": 2.009
+      },
+      "gateway": {
+        "n": 300,
+        "mean": 0.676,
+        "p50": 0.642,
+        "p95": 0.854,
+        "p99": 1.178,
+        "min": 0.527,
+        "max": 2.147
+      },
+      "overheadMedianMs": 0.296,
+      "overheadMedianCI95": [
+        0.286,
+        0.307
+      ],
+      "overheadP95Ms": 0.473
+    },
+    {
+      "id": "benign-3KB",
+      "desc": "benign, ~3 KB, ALLOW path",
+      "requests": 300,
+      "ok": 300,
+      "baseline": {
+        "n": 300,
+        "mean": 0.386,
+        "p50": 0.366,
+        "p95": 0.474,
+        "p99": 0.664,
+        "min": 0.304,
+        "max": 3.173
+      },
+      "gateway": {
+        "n": 300,
+        "mean": 0.677,
+        "p50": 0.642,
+        "p95": 0.861,
+        "p99": 1.347,
+        "min": 0.552,
+        "max": 1.789
+      },
+      "overheadMedianMs": 0.276,
+      "overheadMedianCI95": [
+        0.269,
+        0.285
+      ],
+      "overheadP95Ms": 0.428
+    },
+    {
+      "id": "nhi-1KB",
+      "desc": "1 KB with one valid NHI, MASK path (+audit)",
+      "requests": 300,
+      "ok": 300,
+      "baseline": {
+        "n": 300,
+        "mean": 0.35,
+        "p50": 0.331,
+        "p95": 0.498,
+        "p99": 0.65,
+        "min": 0.242,
+        "max": 0.952
+      },
+      "gateway": {
+        "n": 300,
+        "mean": 0.796,
+        "p50": 0.755,
+        "p95": 1.086,
+        "p99": 1.559,
+        "min": 0.576,
+        "max": 2.385
+      },
+      "overheadMedianMs": 0.407,
+      "overheadMedianCI95": [
+        0.398,
+        0.424
+      ],
+      "overheadP95Ms": 0.669
+    }
+  ],
+  "streaming": [
+    {
+      "id": "stream-default-3chunk",
+      "desc": "mock-llm default 3-chunk reply (~90 chars)",
+      "requests": 100,
+      "timeToFirstContent": {
+        "baseline": {
+          "n": 100,
+          "mean": 126.72,
+          "p50": 126.534,
+          "p95": 129.572,
+          "p99": 130.019,
+          "min": 123.299,
+          "max": 130.398
+        },
+        "gateway": {
+          "n": 100,
+          "mean": 129.515,
+          "p50": 129.215,
+          "p95": 133.011,
+          "p99": 133.329,
+          "min": 126.108,
+          "max": 133.797
+        },
+        "overheadMedianMs": 2.781,
+        "overheadMedianCI95": [
+          2.31,
+          3.305
+        ],
+        "overheadP95Ms": 7.033
+      },
+      "totalStreamTime": {
+        "baseline": {
+          "n": 100,
+          "mean": 498.585,
+          "p50": 498.765,
+          "p95": 503.713,
+          "p99": 506.706,
+          "min": 491.106,
+          "max": 508.925
+        },
+        "gateway": {
+          "n": 100,
+          "mean": 501.626,
+          "p50": 501.737,
+          "p95": 508.914,
+          "p99": 509.928,
+          "min": 491.175,
+          "max": 511.314
+        },
+        "overheadMedianMs": 3.033,
+        "overheadMedianCI95": [
+          2.046,
+          4.431
+        ],
+        "overheadP95Ms": 11.304
+      }
+    },
+    {
+      "id": "stream-echo-1KB",
+      "desc": "echo model, one ~1 KB delta",
+      "requests": 100,
+      "timeToFirstContent": {
+        "baseline": {
+          "n": 100,
+          "mean": 127.348,
+          "p50": 127.74,
+          "p95": 129.786,
+          "p99": 130.291,
+          "min": 123.043,
+          "max": 130.369
+        },
+        "gateway": {
+          "n": 100,
+          "mean": 129.873,
+          "p50": 129.623,
+          "p95": 132.738,
+          "p99": 133.533,
+          "min": 125.364,
+          "max": 133.829
+        },
+        "overheadMedianMs": 2.617,
+        "overheadMedianCI95": [
+          2.118,
+          3.05
+        ],
+        "overheadP95Ms": 6.993
+      },
+      "totalStreamTime": {
+        "baseline": {
+          "n": 100,
+          "mean": 251.27,
+          "p50": 251.158,
+          "p95": 254.759,
+          "p99": 255.798,
+          "min": 245.576,
+          "max": 256.006
+        },
+        "gateway": {
+          "n": 100,
+          "mean": 254.036,
+          "p50": 253.866,
+          "p95": 258.359,
+          "p99": 259.368,
+          "min": 248.769,
+          "max": 259.848
+        },
+        "overheadMedianMs": 3.11,
+        "overheadMedianCI95": [
+          2.341,
+          3.78
+        ],
+        "overheadP95Ms": 7.627
+      }
+    }
+  ],
+  "throughput": [
+    {
+      "concurrency": 1,
+      "baseline": {
+        "concurrency": 1,
+        "completed": 61918,
+        "errors": 0,
+        "requestsPerSecond": 4127.9,
+        "p50Ms": 0.229,
+        "p95Ms": 0.302,
+        "p99Ms": 0.443,
+        "resources": {
+          "sentinel-proxy": {
+            "cpu": "0.05%",
+            "mem": "61.13MiB / 7.75GiB"
+          },
+          "mock-llm-service": {
+            "cpu": "46.87%",
+            "mem": "57.01MiB / 7.75GiB"
+          }
+        }
+      },
+      "gateway": {
+        "concurrency": 1,
+        "completed": 28920,
+        "errors": 0,
+        "requestsPerSecond": 1928,
+        "p50Ms": 0.489,
+        "p95Ms": 0.657,
+        "p99Ms": 0.991,
+        "resources": {
+          "sentinel-proxy": {
+            "cpu": "44.14%",
+            "mem": "63.96MiB / 7.75GiB"
+          },
+          "mock-llm-service": {
+            "cpu": "19.40%",
+            "mem": "63.7MiB / 7.75GiB"
+          }
+        }
+      },
+      "throughputRatio": 0.467
+    },
+    {
+      "concurrency": 10,
+      "baseline": {
+        "concurrency": 10,
+        "completed": 139849,
+        "errors": 0,
+        "requestsPerSecond": 9323.3,
+        "p50Ms": 0.876,
+        "p95Ms": 1.882,
+        "p99Ms": 2.438,
+        "resources": {
+          "sentinel-proxy": {
+            "cpu": "4.47%",
+            "mem": "25.21MiB / 7.75GiB"
+          },
+          "mock-llm-service": {
+            "cpu": "107.56%",
+            "mem": "64.1MiB / 7.75GiB"
+          }
+        }
+      },
+      "gateway": {
+        "concurrency": 10,
+        "completed": 97157,
+        "errors": 0,
+        "requestsPerSecond": 6477.1,
+        "p50Ms": 1.438,
+        "p95Ms": 2.416,
+        "p99Ms": 3.386,
+        "resources": {
+          "sentinel-proxy": {
+            "cpu": "117.83%",
+            "mem": "64.55MiB / 7.75GiB"
+          },
+          "mock-llm-service": {
+            "cpu": "59.02%",
+            "mem": "59.53MiB / 7.75GiB"
+          }
+        }
+      },
+      "throughputRatio": 0.695
+    },
+    {
+      "concurrency": 50,
+      "baseline": {
+        "concurrency": 50,
+        "completed": 193410,
+        "errors": 0,
+        "requestsPerSecond": 12894,
+        "p50Ms": 3.532,
+        "p95Ms": 6.764,
+        "p99Ms": 8.056,
+        "resources": {
+          "sentinel-proxy": {
+            "cpu": "2.29%",
+            "mem": "27.39MiB / 7.75GiB"
+          },
+          "mock-llm-service": {
+            "cpu": "113.25%",
+            "mem": "74.15MiB / 7.75GiB"
+          }
+        }
+      },
+      "gateway": {
+        "concurrency": 50,
+        "completed": 98840,
+        "errors": 0,
+        "requestsPerSecond": 6589.3,
+        "p50Ms": 7.374,
+        "p95Ms": 10.335,
+        "p99Ms": 12.368,
+        "resources": {
+          "sentinel-proxy": {
+            "cpu": "110.45%",
+            "mem": "99.45MiB / 7.75GiB"
+          },
+          "mock-llm-service": {
+            "cpu": "57.29%",
+            "mem": "69.14MiB / 7.75GiB"
+          }
+        }
+      },
+      "throughputRatio": 0.511
+    }
+  ]
+}
